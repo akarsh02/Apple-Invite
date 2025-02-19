@@ -1,0 +1,246 @@
+{
+    "sourceFile": "app/welcome.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 57,
+            "patches": [
+                {
+                    "date": 1739959553000,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1739959602423,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import { View, Text } from 'react-native';\n \n export default function WelcomeScreen() {\n   return (\n-    <View className=\"flex-1 items-center justify-center bg-white\">\n-      <Text>welcome</Text>\n+    <View className=\"flex-1 items-center justify-center bg-yellow-950\">\n+      <Text className='text-white text-4xl font-bold'>welcome</Text>\n     </View>\n   );\n }\n"
+                },
+                {
+                    "date": 1739959612540,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,8 @@\n \n export default function WelcomeScreen() {\n   return (\n     <View className=\"flex-1 items-center justify-center bg-yellow-950\">\n-      <Text className='text-white text-4xl font-bold'>welcome</Text>\n+      <Text className='text-white text-4xl font-bold'>welcome to the app</Text>\n     </View>\n   );\n }\n"
+                },
+                {
+                    "date": 1739959618063,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,8 @@\n \n export default function WelcomeScreen() {\n   return (\n     <View className=\"flex-1 items-center justify-center bg-yellow-950\">\n-      <Text className='text-white text-4xl font-bold'>welcome to the app</Text>\n+      <Text className='text-white text-4xl font-bold'>Welcome to the app</Text>\n     </View>\n   );\n }\n"
+                },
+                {
+                    "date": 1739960980560,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,12 @@\n \n export default function WelcomeScreen() {\n   return (\n     <View className=\"flex-1 items-center justify-center bg-yellow-950\">\n-      <Text className='text-white text-4xl font-bold'>Welcome to the app</Text>\n+     <View>\n+      <Text className='text-white text-4xl font-bold'>Welcome to</Text>\n+      <Text className='text-white text-4xl font-bold'>Apple Invite</Text>\n+      <Text className='text-white text-4xl font-bold'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni ut officia ullam ipsum commodi suscipit natus dignissimos quaerat laboriosam quod, ea, ex at dolorem maxime officiis nisi itaque necessitatibus velit.</Text>\n+      </View>\n     </View>\n   );\n }\n"
+                },
+                {
+                    "date": 1739961000851,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \n export default function WelcomeScreen() {\n   return (\n     <View className=\"flex-1 items-center justify-center bg-yellow-950\">\n-     <View>\n+     <View className=' flex-1 items-center justify-center'>\n       <Text className='text-white text-4xl font-bold'>Welcome to</Text>\n       <Text className='text-white text-4xl font-bold'>Apple Invite</Text>\n       <Text className='text-white text-4xl font-bold'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni ut officia ullam ipsum commodi suscipit natus dignissimos quaerat laboriosam quod, ea, ex at dolorem maxime officiis nisi itaque necessitatibus velit.</Text>\n       </View>\n"
+                },
+                {
+                    "date": 1739961209097,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,11 +4,11 @@\n export default function WelcomeScreen() {\n   return (\n     <View className=\"flex-1 items-center justify-center bg-yellow-950\">\n      <View className=' flex-1 items-center justify-center'>\n-      <Text className='text-white text-4xl font-bold'>Welcome to</Text>\n+      <Text className='text-white text-center'>Welcome to</Text>\n       <Text className='text-white text-4xl font-bold'>Apple Invite</Text>\n-      <Text className='text-white text-4xl font-bold'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni ut officia ullam ipsum commodi suscipit natus dignissimos quaerat laboriosam quod, ea, ex at dolorem maxime officiis nisi itaque necessitatibus velit.</Text>\n+      <Text className='text-white text-4xl font-bold'>Create beautiful invitations for your eveents. Anyone can receive invitations.</Text>\n       </View>\n     </View>\n   );\n }\n"
+                },
+                {
+                    "date": 1739961218955,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n export default function WelcomeScreen() {\n   return (\n     <View className=\"flex-1 items-center justify-center bg-yellow-950\">\n      <View className=' flex-1 items-center justify-center'>\n-      <Text className='text-white text-center'>Welcome to</Text>\n+      <Text className='text-white text-center text-lg'>Welcome to</Text>\n       <Text className='text-white text-4xl font-bold'>Apple Invite</Text>\n       <Text className='text-white text-4xl font-bold'>Create beautiful invitations for your eveents. Anyone can receive invitations.</Text>\n       </View>\n     </View>\n"
+                },
+                {
+                    "date": 1739961238377,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n export default function WelcomeScreen() {\n   return (\n     <View className=\"flex-1 items-center justify-center bg-yellow-950\">\n      <View className=' flex-1 items-center justify-center'>\n-      <Text className='text-white text-center text-lg'>Welcome to</Text>\n+      <Text className='text-white text-center text-lg font-bold'>Welcome to</Text>\n       <Text className='text-white text-4xl font-bold'>Apple Invite</Text>\n       <Text className='text-white text-4xl font-bold'>Create beautiful invitations for your eveents. Anyone can receive invitations.</Text>\n       </View>\n     </View>\n"
+                },
+                {
+                    "date": 1739961268598,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n   return (\n     <View className=\"flex-1 items-center justify-center bg-yellow-950\">\n      <View className=' flex-1 items-center justify-center'>\n       <Text className='text-white text-center text-lg font-bold'>Welcome to</Text>\n-      <Text className='text-white text-4xl font-bold'>Apple Invite</Text>\n+      <Text className='text-white text-center text-lg font-bold'>Apple Invite</Text>\n       <Text className='text-white text-4xl font-bold'>Create beautiful invitations for your eveents. Anyone can receive invitations.</Text>\n       </View>\n     </View>\n   );\n"
+                },
+                {
+                    "date": 1739961274569,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n   return (\n     <View className=\"flex-1 items-center justify-center bg-yellow-950\">\n      <View className=' flex-1 items-center justify-center'>\n       <Text className='text-white text-center text-lg font-bold'>Welcome to</Text>\n-      <Text className='text-white text-center text-lg font-bold'>Apple Invite</Text>\n+      <Text className='text-white text-center text-4xl font-bold'>Apple Invite</Text>\n       <Text className='text-white text-4xl font-bold'>Create beautiful invitations for your eveents. Anyone can receive invitations.</Text>\n       </View>\n     </View>\n   );\n"
+                },
+                {
+                    "date": 1739961293664,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \n export default function WelcomeScreen() {\n   return (\n     <View className=\"flex-1 items-center justify-center bg-yellow-950\">\n-     <View className=' flex-1 items-center justify-center'>\n+     <View className=' gap-4 p-4'>\n       <Text className='text-white text-center text-lg font-bold'>Welcome to</Text>\n       <Text className='text-white text-center text-4xl font-bold'>Apple Invite</Text>\n       <Text className='text-white text-4xl font-bold'>Create beautiful invitations for your eveents. Anyone can receive invitations.</Text>\n       </View>\n"
+                },
+                {
+                    "date": 1739961314124,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     <View className=\"flex-1 items-center justify-center bg-yellow-950\">\n      <View className=' gap-4 p-4'>\n       <Text className='text-white text-center text-lg font-bold'>Welcome to</Text>\n       <Text className='text-white text-center text-4xl font-bold'>Apple Invite</Text>\n-      <Text className='text-white text-4xl font-bold'>Create beautiful invitations for your eveents. Anyone can receive invitations.</Text>\n+      <Text className='text-white text-center text-lg f'>Create beautiful invitations for your eveents. Anyone can receive invitations.</Text>\n       </View>\n     </View>\n   );\n }\n"
+                },
+                {
+                    "date": 1739961338538,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n export default function WelcomeScreen() {\n   return (\n     <View className=\"flex-1 items-center justify-center bg-yellow-950\">\n      <View className=' gap-4 p-4'>\n-      <Text className='text-white text-center text-lg font-bold'>Welcome to</Text>\n+      <Text className='text-gray-400 text-center text-lg font-bold'>Welcome to</Text>\n       <Text className='text-white text-center text-4xl font-bold'>Apple Invite</Text>\n       <Text className='text-white text-center text-lg f'>Create beautiful invitations for your eveents. Anyone can receive invitations.</Text>\n       </View>\n     </View>\n"
+                },
+                {
+                    "date": 1739961359058,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n export default function WelcomeScreen() {\n   return (\n     <View className=\"flex-1 items-center justify-center bg-yellow-950\">\n      <View className=' gap-4 p-4'>\n-      <Text className='text-gray-400 text-center text-lg font-bold'>Welcome to</Text>\n+      <Text className='text-gray-300 text-center text-lg font-bold'>Welcome to</Text>\n       <Text className='text-white text-center text-4xl font-bold'>Apple Invite</Text>\n       <Text className='text-white text-center text-lg f'>Create beautiful invitations for your eveents. Anyone can receive invitations.</Text>\n       </View>\n     </View>\n"
+                },
+                {
+                    "date": 1739961366445,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n export default function WelcomeScreen() {\n   return (\n     <View className=\"flex-1 items-center justify-center bg-yellow-950\">\n      <View className=' gap-4 p-4'>\n-      <Text className='text-gray-300 text-center text-lg font-bold'>Welcome to</Text>\n+      <Text className='text-gray-300 text-center text-lg font-bold opacity-20'>Welcome to</Text>\n       <Text className='text-white text-center text-4xl font-bold'>Apple Invite</Text>\n       <Text className='text-white text-center text-lg f'>Create beautiful invitations for your eveents. Anyone can receive invitations.</Text>\n       </View>\n     </View>\n"
+                },
+                {
+                    "date": 1739961375513,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n export default function WelcomeScreen() {\n   return (\n     <View className=\"flex-1 items-center justify-center bg-yellow-950\">\n      <View className=' gap-4 p-4'>\n-      <Text className='text-gray-300 text-center text-lg font-bold opacity-20'>Welcome to</Text>\n+      <Text className='text-gray-300 text-center text-lg font-bold opacity-10'>Welcome to</Text>\n       <Text className='text-white text-center text-4xl font-bold'>Apple Invite</Text>\n       <Text className='text-white text-center text-lg f'>Create beautiful invitations for your eveents. Anyone can receive invitations.</Text>\n       </View>\n     </View>\n"
+                },
+                {
+                    "date": 1739961382200,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n export default function WelcomeScreen() {\n   return (\n     <View className=\"flex-1 items-center justify-center bg-yellow-950\">\n      <View className=' gap-4 p-4'>\n-      <Text className='text-gray-300 text-center text-lg font-bold opacity-10'>Welcome to</Text>\n+      <Text className='text-gray-300 text-center text-lg font-bold '>Welcome to</Text>\n       <Text className='text-white text-center text-4xl font-bold'>Apple Invite</Text>\n       <Text className='text-white text-center text-lg f'>Create beautiful invitations for your eveents. Anyone can receive invitations.</Text>\n       </View>\n     </View>\n"
+                },
+                {
+                    "date": 1739961394404,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n export default function WelcomeScreen() {\n   return (\n     <View className=\"flex-1 items-center justify-center bg-yellow-950\">\n      <View className=' gap-4 p-4'>\n-      <Text className='text-gray-300 text-center text-lg font-bold '>Welcome to</Text>\n+      <Text className='text-gray-300/50 text-center text-lg font-bold '>Welcome to</Text>\n       <Text className='text-white text-center text-4xl font-bold'>Apple Invite</Text>\n       <Text className='text-white text-center text-lg f'>Create beautiful invitations for your eveents. Anyone can receive invitations.</Text>\n       </View>\n     </View>\n"
+                },
+                {
+                    "date": 1739961405357,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     <View className=\"flex-1 items-center justify-center bg-yellow-950\">\n      <View className=' gap-4 p-4'>\n       <Text className='text-gray-300/50 text-center text-lg font-bold '>Welcome to</Text>\n       <Text className='text-white text-center text-4xl font-bold'>Apple Invite</Text>\n-      <Text className='text-white text-center text-lg f'>Create beautiful invitations for your eveents. Anyone can receive invitations.</Text>\n+      <Text className='text-white/50 text-center text-lg f'>Create beautiful invitations for your eveents. Anyone can receive invitations.</Text>\n       </View>\n     </View>\n   );\n }\n"
+                },
+                {
+                    "date": 1739961412268,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     <View className=\"flex-1 items-center justify-center bg-yellow-950\">\n      <View className=' gap-4 p-4'>\n       <Text className='text-gray-300/50 text-center text-lg font-bold '>Welcome to</Text>\n       <Text className='text-white text-center text-4xl font-bold'>Apple Invite</Text>\n-      <Text className='text-white/50 text-center text-lg f'>Create beautiful invitations for your eveents. Anyone can receive invitations.</Text>\n+      <Text className='text-white/60 text-center text-lg f'>Create beautiful invitations for your eveents. Anyone can receive invitations.</Text>\n       </View>\n     </View>\n   );\n }\n"
+                },
+                {
+                    "date": 1739961420505,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n export default function WelcomeScreen() {\n   return (\n     <View className=\"flex-1 items-center justify-center bg-yellow-950\">\n      <View className=' gap-4 p-4'>\n-      <Text className='text-gray-300/50 text-center text-lg font-bold '>Welcome to</Text>\n+      <Text className='text-gray-300/60 text-center text-lg font-bold '>Welcome to</Text>\n       <Text className='text-white text-center text-4xl font-bold'>Apple Invite</Text>\n       <Text className='text-white/60 text-center text-lg f'>Create beautiful invitations for your eveents. Anyone can receive invitations.</Text>\n       </View>\n     </View>\n"
+                },
+                {
+                    "date": 1739961474367,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,11 +4,11 @@\n export default function WelcomeScreen() {\n   return (\n     <View className=\"flex-1 items-center justify-center bg-yellow-950\">\n      <View className=' gap-4 p-4'>\n-      <Text className='text-gray-300/60 text-center text-lg font-bold '>Welcome to</Text>\n-      <Text className='text-white text-center text-4xl font-bold'>Apple Invite</Text>\n-      <Text className='text-white/60 text-center text-lg f'>Create beautiful invitations for your eveents. Anyone can receive invitations.</Text>\n+      <Text className='text-gray-300/60  text-lg font-bold '>Welcome to</Text>\n+      <Text className='text-white text-4xl font-bold'>Apple Invite</Text>\n+      <Text className='text-white/60 r text-lg f'>Create beautiful invitations for your eveents. Anyone can receive invitations.</Text>\n       </View>\n     </View>\n   );\n }\n"
+                },
+                {
+                    "date": 1739961482108,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \n export default function WelcomeScreen() {\n   return (\n     <View className=\"flex-1 items-center justify-center bg-yellow-950\">\n-     <View className=' gap-4 p-4'>\n+     <View className=' gap-4 p-4 text-center'>\n       <Text className='text-gray-300/60  text-lg font-bold '>Welcome to</Text>\n       <Text className='text-white text-4xl font-bold'>Apple Invite</Text>\n       <Text className='text-white/60 r text-lg f'>Create beautiful invitations for your eveents. Anyone can receive invitations.</Text>\n       </View>\n"
+                },
+                {
+                    "date": 1739961489095,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \n export default function WelcomeScreen() {\n   return (\n     <View className=\"flex-1 items-center justify-center bg-yellow-950\">\n-     <View className=' gap-4 p-4 text-center'>\n+     <View className=' gap-4 p-4 items-center'>\n       <Text className='text-gray-300/60  text-lg font-bold '>Welcome to</Text>\n       <Text className='text-white text-4xl font-bold'>Apple Invite</Text>\n       <Text className='text-white/60 r text-lg f'>Create beautiful invitations for your eveents. Anyone can receive invitations.</Text>\n       </View>\n"
+                },
+                {
+                    "date": 1739961495038,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \n export default function WelcomeScreen() {\n   return (\n     <View className=\"flex-1 items-center justify-center bg-yellow-950\">\n-     <View className=' gap-4 p-4 items-center'>\n+     <View className=' gap-4 p-4 items-center justify-center'>\n       <Text className='text-gray-300/60  text-lg font-bold '>Welcome to</Text>\n       <Text className='text-white text-4xl font-bold'>Apple Invite</Text>\n       <Text className='text-white/60 r text-lg f'>Create beautiful invitations for your eveents. Anyone can receive invitations.</Text>\n       </View>\n"
+                },
+                {
+                    "date": 1739961503562,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \n export default function WelcomeScreen() {\n   return (\n     <View className=\"flex-1 items-center justify-center bg-yellow-950\">\n-     <View className=' gap-4 p-4 items-center justify-center'>\n+     <View className=' gap-4 p-4 items-center'>\n       <Text className='text-gray-300/60  text-lg font-bold '>Welcome to</Text>\n       <Text className='text-white text-4xl font-bold'>Apple Invite</Text>\n       <Text className='text-white/60 r text-lg f'>Create beautiful invitations for your eveents. Anyone can receive invitations.</Text>\n       </View>\n"
+                },
+                {
+                    "date": 1739961509935,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     <View className=\"flex-1 items-center justify-center bg-yellow-950\">\n      <View className=' gap-4 p-4 items-center'>\n       <Text className='text-gray-300/60  text-lg font-bold '>Welcome to</Text>\n       <Text className='text-white text-4xl font-bold'>Apple Invite</Text>\n-      <Text className='text-white/60 r text-lg f'>Create beautiful invitations for your eveents. Anyone can receive invitations.</Text>\n+      <Text className='text-white/60 r text-lg  text-center'>Create beautiful invitations for your eveents. Anyone can receive invitations.</Text>\n       </View>\n     </View>\n   );\n }\n"
+                },
+                {
+                    "date": 1739961568120,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,11 @@\n \n export default function WelcomeScreen() {\n   return (\n     <View className=\"flex-1 items-center justify-center bg-yellow-950\">\n+     <View className='h-1/2'>\n+\n+     </View>\n      <View className=' gap-4 p-4 items-center'>\n       <Text className='text-gray-300/60  text-lg font-bold '>Welcome to</Text>\n       <Text className='text-white text-4xl font-bold'>Apple Invite</Text>\n       <Text className='text-white/60 r text-lg  text-center'>Create beautiful invitations for your eveents. Anyone can receive invitations.</Text>\n"
+                },
+                {
+                    "date": 1739961577877,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \n export default function WelcomeScreen() {\n   return (\n     <View className=\"flex-1 items-center justify-center bg-yellow-950\">\n-     <View className='h-1/2'>\n+     <View className='h-1/2 bg-white'>\n \n      </View>\n      <View className=' gap-4 p-4 items-center'>\n       <Text className='text-gray-300/60  text-lg font-bold '>Welcome to</Text>\n"
+                },
+                {
+                    "date": 1739961592699,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \n export default function WelcomeScreen() {\n   return (\n     <View className=\"flex-1 items-center justify-center bg-yellow-950\">\n-     <View className='h-1/2 bg-white'>\n+     <View className='h-1/2 bg-white w-full'>\n \n      </View>\n      <View className=' gap-4 p-4 items-center'>\n       <Text className='text-gray-300/60  text-lg font-bold '>Welcome to</Text>\n"
+                },
+                {
+                    "date": 1739961850155,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import { View, Text } from 'react-native';\n \n export default function WelcomeScreen() {\n   return (\n-    <View className=\"flex-1 items-center justify-center bg-yellow-950\">\n+    <View className=\"flex-1 items-center bg-yellow-950\">\n      <View className='h-1/2 bg-white w-full'>\n \n      </View>\n      <View className=' gap-4 p-4 items-center'>\n"
+                },
+                {
+                    "date": 1739961968040,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     <View className=\"flex-1 items-center bg-yellow-950\">\n      <View className='h-1/2 bg-white w-full'>\n \n      </View>\n-     <View className=' gap-4 p-4 items-center'>\n+     <View className=' gap-4 p-4 items-center flex-1'>\n       <Text className='text-gray-300/60  text-lg font-bold '>Welcome to</Text>\n       <Text className='text-white text-4xl font-bold'>Apple Invite</Text>\n       <Text className='text-white/60 r text-lg  text-center'>Create beautiful invitations for your eveents. Anyone can receive invitations.</Text>\n       </View>\n"
+                },
+                {
+                    "date": 1739961981078,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     <View className=\"flex-1 items-center bg-yellow-950\">\n      <View className='h-1/2 bg-white w-full'>\n \n      </View>\n-     <View className=' gap-4 p-4 items-center flex-1'>\n+     <View className=' gap-4 p-4 items-center flex-1 bg-yellow-500'>\n       <Text className='text-gray-300/60  text-lg font-bold '>Welcome to</Text>\n       <Text className='text-white text-4xl font-bold'>Apple Invite</Text>\n       <Text className='text-white/60 r text-lg  text-center'>Create beautiful invitations for your eveents. Anyone can receive invitations.</Text>\n       </View>\n"
+                },
+                {
+                    "date": 1739962014485,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     <View className=\"flex-1 items-center bg-yellow-950\">\n      <View className='h-1/2 bg-white w-full'>\n \n      </View>\n-     <View className=' gap-4 p-4 items-center flex-1 bg-yellow-500'>\n+     <View className=' gap-4 p-4  flex-1 bg-yellow-500'>\n       <Text className='text-gray-300/60  text-lg font-bold '>Welcome to</Text>\n       <Text className='text-white text-4xl font-bold'>Apple Invite</Text>\n       <Text className='text-white/60 r text-lg  text-center'>Create beautiful invitations for your eveents. Anyone can receive invitations.</Text>\n       </View>\n"
+                },
+                {
+                    "date": 1739962021486,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     <View className=\"flex-1 items-center bg-yellow-950\">\n      <View className='h-1/2 bg-white w-full'>\n \n      </View>\n-     <View className=' gap-4 p-4  flex-1 bg-yellow-500'>\n+     <View className=' gap-4 p-4 justify-center items-center flex-1 bg-yellow-500'>\n       <Text className='text-gray-300/60  text-lg font-bold '>Welcome to</Text>\n       <Text className='text-white text-4xl font-bold'>Apple Invite</Text>\n       <Text className='text-white/60 r text-lg  text-center'>Create beautiful invitations for your eveents. Anyone can receive invitations.</Text>\n       </View>\n"
+                },
+                {
+                    "date": 1739962055905,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,10 @@\n import React from 'react';\n-import { View, Text } from 'react-native';\n+import { View, Text, SafeAreaView } from 'react-native';\n \n export default function WelcomeScreen() {\n   return (\n+   <SafeAreaView>\n     <View className=\"flex-1 items-center bg-yellow-950\">\n      <View className='h-1/2 bg-white w-full'>\n \n      </View>\n@@ -12,6 +13,7 @@\n       <Text className='text-white text-4xl font-bold'>Apple Invite</Text>\n       <Text className='text-white/60 r text-lg  text-center'>Create beautiful invitations for your eveents. Anyone can receive invitations.</Text>\n       </View>\n     </View>\n+    </SafeAreaView>\n   );\n }\n"
+                },
+                {
+                    "date": 1739962075410,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,18 +2,19 @@\n import { View, Text, SafeAreaView } from 'react-native';\n \n export default function WelcomeScreen() {\n   return (\n-   <SafeAreaView>\n     <View className=\"flex-1 items-center bg-yellow-950\">\n+     <SafeAreaView>\n      <View className='h-1/2 bg-white w-full'>\n \n      </View>\n      <View className=' gap-4 p-4 justify-center items-center flex-1 bg-yellow-500'>\n       <Text className='text-gray-300/60  text-lg font-bold '>Welcome to</Text>\n       <Text className='text-white text-4xl font-bold'>Apple Invite</Text>\n       <Text className='text-white/60 r text-lg  text-center'>Create beautiful invitations for your eveents. Anyone can receive invitations.</Text>\n       </View>\n+      </SafeAreaView>\n     </View>\n-    </SafeAreaView>\n+   \n   );\n }\n"
+                },
+                {
+                    "date": 1739962086952,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \n export default function WelcomeScreen() {\n   return (\n     <View className=\"flex-1 items-center bg-yellow-950\">\n-     <SafeAreaView>\n+     <SafeAreaView className='flex-1'>\n      <View className='h-1/2 bg-white w-full'>\n \n      </View>\n      <View className=' gap-4 p-4 justify-center items-center flex-1 bg-yellow-500'>\n"
+                },
+                {
+                    "date": 1739962171116,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,10 +2,10 @@\n import { View, Text, SafeAreaView } from 'react-native';\n \n export default function WelcomeScreen() {\n   return (\n-    <View className=\"flex-1 items-center bg-yellow-950\">\n-     <SafeAreaView className='flex-1'>\n+\n+     <SafeAreaView className='flex-1 bg-red-300 items-center'>\n      <View className='h-1/2 bg-white w-full'>\n \n      </View>\n      <View className=' gap-4 p-4 justify-center items-center flex-1 bg-yellow-500'>\n@@ -13,8 +13,8 @@\n       <Text className='text-white text-4xl font-bold'>Apple Invite</Text>\n       <Text className='text-white/60 r text-lg  text-center'>Create beautiful invitations for your eveents. Anyone can receive invitations.</Text>\n       </View>\n       </SafeAreaView>\n-    </View>\n+\n    \n   );\n }\n"
+                },
+                {
+                    "date": 1739962382304,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,19 +2,16 @@\n import { View, Text, SafeAreaView } from 'react-native';\n \n export default function WelcomeScreen() {\n   return (\n-\n-     <SafeAreaView className='flex-1 bg-red-300 items-center'>\n-     <View className='h-1/2 bg-white w-full'>\n-\n-     </View>\n-     <View className=' gap-4 p-4 justify-center items-center flex-1 bg-yellow-500'>\n-      <Text className='text-gray-300/60  text-lg font-bold '>Welcome to</Text>\n-      <Text className='text-white text-4xl font-bold'>Apple Invite</Text>\n-      <Text className='text-white/60 r text-lg  text-center'>Create beautiful invitations for your eveents. Anyone can receive invitations.</Text>\n+    <SafeAreaView className=\"flex-1 items-center bg-red-300\">\n+      <View className=\"h-1/2 w-full bg-white\" />\n+      <View className=\" flex-1 items-center justify-center gap-4 bg-yellow-500 p-4\">\n+        <Text className=\"text-lg  font-bold text-gray-300/60 \">Welcome to</Text>\n+        <Text className=\"text-4xl font-bold text-white\">Apple Invite</Text>\n+        <Text className=\"r text-center text-lg  text-white/60\">\n+          Create beautiful invitations for your eveents. Anyone can receive invitations.\n+        </Text>\n       </View>\n-      </SafeAreaView>\n-\n-   \n+    </SafeAreaView>\n   );\n }\n"
+                },
+                {
+                    "date": 1739965710092,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import { View, Text, SafeAreaView } from 'react-native';\n \n export default function WelcomeScreen() {\n   return (\n-    <SafeAreaView className=\"flex-1 items-center bg-red-300\">\n+    <SafeAreaView className=\"flex-1 items-center bg-red-500\">\n       <View className=\"h-1/2 w-full bg-white\" />\n       <View className=\" flex-1 items-center justify-center gap-4 bg-yellow-500 p-4\">\n         <Text className=\"text-lg  font-bold text-gray-300/60 \">Welcome to</Text>\n         <Text className=\"text-4xl font-bold text-white\">Apple Invite</Text>\n"
+                },
+                {
+                    "date": 1739965737021,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \n export default function WelcomeScreen() {\n   return (\n     <SafeAreaView className=\"flex-1 items-center bg-red-500\">\n-      <View className=\"h-1/2 w-full bg-white\" />\n+      <View className=\"h-1/2 w-full bg-gray-400\" />\n       <View className=\" flex-1 items-center justify-center gap-4 bg-yellow-500 p-4\">\n         <Text className=\"text-lg  font-bold text-gray-300/60 \">Welcome to</Text>\n         <Text className=\"text-4xl font-bold text-white\">Apple Invite</Text>\n         <Text className=\"r text-center text-lg  text-white/60\">\n"
+                },
+                {
+                    "date": 1739966835631,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import { View, Text, SafeAreaView } from 'react-native';\n \n export default function WelcomeScreen() {\n   return (\n-    <SafeAreaView className=\"flex-1 items-center bg-red-500\">\n+    <SafeAreaView className=\"flex-1 items-center bg-yellow-950\">\n       <View className=\"h-1/2 w-full bg-gray-400\" />\n       <View className=\" flex-1 items-center justify-center gap-4 bg-yellow-500 p-4\">\n         <Text className=\"text-lg  font-bold text-gray-300/60 \">Welcome to</Text>\n         <Text className=\"text-4xl font-bold text-white\">Apple Invite</Text>\n"
+                },
+                {
+                    "date": 1739966880752,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \n export default function WelcomeScreen() {\n   return (\n     <SafeAreaView className=\"flex-1 items-center bg-yellow-950\">\n-      <View className=\"h-1/2 w-full bg-gray-400\" />\n+      <View className=\" h-2/3 w-full bg-gray-400\" />\n       <View className=\" flex-1 items-center justify-center gap-4 bg-yellow-500 p-4\">\n         <Text className=\"text-lg  font-bold text-gray-300/60 \">Welcome to</Text>\n         <Text className=\"text-4xl font-bold text-white\">Apple Invite</Text>\n         <Text className=\"r text-center text-lg  text-white/60\">\n"
+                },
+                {
+                    "date": 1739966946867,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,10 +5,10 @@\n   return (\n     <SafeAreaView className=\"flex-1 items-center bg-yellow-950\">\n       <View className=\" h-2/3 w-full bg-gray-400\" />\n       <View className=\" flex-1 items-center justify-center gap-4 bg-yellow-500 p-4\">\n-        <Text className=\"text-lg  font-bold text-gray-300/60 \">Welcome to</Text>\n-        <Text className=\"text-4xl font-bold text-white\">Apple Invite</Text>\n+        <Text className=\"text-2xl  font-bold text-gray-300/60 \">Welcome to</Text>\n+        <Text className=\"text-5xl font-bold text-white\">Apple Invite</Text>\n         <Text className=\"r text-center text-lg  text-white/60\">\n           Create beautiful invitations for your eveents. Anyone can receive invitations.\n         </Text>\n       </View>\n"
+                },
+                {
+                    "date": 1739966979288,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n export default function WelcomeScreen() {\n   return (\n     <SafeAreaView className=\"flex-1 items-center bg-yellow-950\">\n       <View className=\" h-2/3 w-full bg-gray-400\" />\n-      <View className=\" flex-1 items-center justify-center gap-4 bg-yellow-500 p-4\">\n+      <View className=\" flex-1 items-center justify-center gap-4 bg-yellow-800 p-4\">\n         <Text className=\"text-2xl  font-bold text-gray-300/60 \">Welcome to</Text>\n         <Text className=\"text-5xl font-bold text-white\">Apple Invite</Text>\n         <Text className=\"r text-center text-lg  text-white/60\">\n           Create beautiful invitations for your eveents. Anyone can receive invitations.\n"
+                },
+                {
+                    "date": 1739967027637,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import React from 'react';\n-import { View, Text, SafeAreaView } from 'react-native';\n+import { View, Text, SafeAreaView, Pressable } from 'react-native';\n \n export default function WelcomeScreen() {\n   return (\n     <SafeAreaView className=\"flex-1 items-center bg-yellow-950\">\n@@ -10,8 +10,11 @@\n         <Text className=\"text-5xl font-bold text-white\">Apple Invite</Text>\n         <Text className=\"r text-center text-lg  text-white/60\">\n           Create beautiful invitations for your eveents. Anyone can receive invitations.\n         </Text>\n+        <Pressable>\n+          <Text>Create an Event</Text>\n+        </Pressable>\n       </View>\n     </SafeAreaView>\n   );\n }\n"
+                },
+                {
+                    "date": 1739967064317,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n         <Text className=\"text-5xl font-bold text-white\">Apple Invite</Text>\n         <Text className=\"r text-center text-lg  text-white/60\">\n           Create beautiful invitations for your eveents. Anyone can receive invitations.\n         </Text>\n-        <Pressable>\n+        <Pressable className='rounded-full bg-gray-50 p-4 self-stretch'>\n           <Text>Create an Event</Text>\n         </Pressable>\n       </View>\n     </SafeAreaView>\n"
+                },
+                {
+                    "date": 1739967081844,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n         <Text className=\"text-5xl font-bold text-white\">Apple Invite</Text>\n         <Text className=\"r text-center text-lg  text-white/60\">\n           Create beautiful invitations for your eveents. Anyone can receive invitations.\n         </Text>\n-        <Pressable className='rounded-full bg-gray-50 p-4 self-stretch'>\n+        <Pressable className='rounded-full bg-gray-50 p-4 self-center'>\n           <Text>Create an Event</Text>\n         </Pressable>\n       </View>\n     </SafeAreaView>\n"
+                },
+                {
+                    "date": 1739967338271,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n         <Text className=\"text-5xl font-bold text-white\">Apple Invite</Text>\n         <Text className=\"r text-center text-lg  text-white/60\">\n           Create beautiful invitations for your eveents. Anyone can receive invitations.\n         </Text>\n-        <Pressable className='rounded-full bg-gray-50 p-4 self-center'>\n+        <Pressable className='rounded-full bg-gray-50 py-4 px-8 self-center'>\n           <Text>Create an Event</Text>\n         </Pressable>\n       </View>\n     </SafeAreaView>\n"
+                },
+                {
+                    "date": 1739967381200,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n         <Text className=\"r text-center text-lg  text-white/60\">\n           Create beautiful invitations for your eveents. Anyone can receive invitations.\n         </Text>\n         <Pressable className='rounded-full bg-gray-50 py-4 px-8 self-center'>\n-          <Text>Create an Event</Text>\n+          <Text className=' text-lg'>Create an Event</Text>\n         </Pressable>\n       </View>\n     </SafeAreaView>\n   );\n"
+                },
+                {
+                    "date": 1739967441895,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \n export default function WelcomeScreen() {\n   return (\n     <SafeAreaView className=\"flex-1 items-center bg-yellow-950\">\n-      <View className=\" h-2/3 w-full bg-gray-400\" />\n+      <View className=\" h-[60%] w-full bg-gray-400\" />\n       <View className=\" flex-1 items-center justify-center gap-4 bg-yellow-800 p-4\">\n         <Text className=\"text-2xl  font-bold text-gray-300/60 \">Welcome to</Text>\n         <Text className=\"text-5xl font-bold text-white\">Apple Invite</Text>\n         <Text className=\"r text-center text-lg  text-white/60\">\n"
+                },
+                {
+                    "date": 1739967464722,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \n export default function WelcomeScreen() {\n   return (\n     <SafeAreaView className=\"flex-1 items-center bg-yellow-950\">\n-      <View className=\" h-[60%] w-full bg-gray-400\" />\n+      <View className=\" h-3/5 w-full bg-gray-400\" />\n       <View className=\" flex-1 items-center justify-center gap-4 bg-yellow-800 p-4\">\n         <Text className=\"text-2xl  font-bold text-gray-300/60 \">Welcome to</Text>\n         <Text className=\"text-5xl font-bold text-white\">Apple Invite</Text>\n         <Text className=\"r text-center text-lg  text-white/60\">\n"
+                },
+                {
+                    "date": 1739967534172,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n         <Text className=\"text-5xl font-bold text-white\">Apple Invite</Text>\n         <Text className=\"r text-center text-lg  text-white/60\">\n           Create beautiful invitations for your eveents. Anyone can receive invitations.\n         </Text>\n-        <Pressable className='rounded-full bg-gray-50 py-4 px-8 self-center'>\n+        <Pressable className='rounded-full bg-gray-50 py-4 px-8 self-center hover:bg-gray-100'>\n           <Text className=' text-lg'>Create an Event</Text>\n         </Pressable>\n       </View>\n     </SafeAreaView>\n"
+                },
+                {
+                    "date": 1739967549312,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n         <Text className=\"text-5xl font-bold text-white\">Apple Invite</Text>\n         <Text className=\"r text-center text-lg  text-white/60\">\n           Create beautiful invitations for your eveents. Anyone can receive invitations.\n         </Text>\n-        <Pressable className='rounded-full bg-gray-50 py-4 px-8 self-center hover:bg-gray-100'>\n+        <Pressable className='rounded-full bg-gray-50 py-4 px-8 self-center hover:bg-green-600'>\n           <Text className=' text-lg'>Create an Event</Text>\n         </Pressable>\n       </View>\n     </SafeAreaView>\n"
+                },
+                {
+                    "date": 1739967569869,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n         <Text className=\"text-5xl font-bold text-white\">Apple Invite</Text>\n         <Text className=\"r text-center text-lg  text-white/60\">\n           Create beautiful invitations for your eveents. Anyone can receive invitations.\n         </Text>\n-        <Pressable className='rounded-full bg-gray-50 py-4 px-8 self-center hover:bg-green-600'>\n+        <Pressable className='rounded-full bg-gray-50 py-4 px-8 self-center'>\n           <Text className=' text-lg'>Create an Event</Text>\n         </Pressable>\n       </View>\n     </SafeAreaView>\n"
+                },
+                {
+                    "date": 1739967613041,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,10 +10,10 @@\n         <Text className=\"text-5xl font-bold text-white\">Apple Invite</Text>\n         <Text className=\"r text-center text-lg  text-white/60\">\n           Create beautiful invitations for your eveents. Anyone can receive invitations.\n         </Text>\n-        <Pressable className='rounded-full bg-gray-50 py-4 px-8 self-center'>\n-          <Text className=' text-lg'>Create an Event</Text>\n+        <Pressable className=\"self-center rounded-full bg-gray-50 px-8 py-4\">\n+          <Text className=\"text-lg\">Create an Event</Text>\n         </Pressable>\n       </View>\n     </SafeAreaView>\n   );\n"
+                }
+            ],
+            "date": 1739959553000,
+            "name": "Commit-0",
+            "content": "import React from 'react';\nimport { View, Text } from 'react-native';\n\nexport default function WelcomeScreen() {\n  return (\n    <View className=\"flex-1 items-center justify-center bg-white\">\n      <Text>welcome</Text>\n    </View>\n  );\n}\n"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "sourceFile": "app/details.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1739955764137,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1739955764137,
+            "name": "Commit-0",
+            "content": "import { Stack, useLocalSearchParams } from 'expo-router';\n\nimport { Container } from '~/components/Container';\nimport { ScreenContent } from '~/components/ScreenContent';\n\nexport default function Details() {\n  const { name } = useLocalSearchParams();\n\n  return (\n    <>\n      <Stack.Screen options={{ title: 'Details' }} />\n      <Container>\n        <ScreenContent path=\"screens/details.tsx\" title={`Showing details for user ${name}`} />\n      </Container>\n    </>\n  );\n}\n"
+        }
+    ]
+}

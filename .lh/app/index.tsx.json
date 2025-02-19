@@ -1,0 +1,46 @@
+{
+    "sourceFile": "app/index.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 7,
+            "patches": [
+                {
+                    "date": 1739955764137,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1739959493133,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,19 +1,9 @@\n-import { Stack, Link } from 'expo-router';\n+import { Stack, Link, Redirect } from 'expo-router';\n \n import { Button } from '~/components/Button';\n import { Container } from '~/components/Container';\n import { ScreenContent } from '~/components/ScreenContent';\n \n export default function Home() {\n-  return (\n-    <>\n-      <Stack.Screen options={{ title: 'Home' }} />\n-      <Container>\n-        <ScreenContent path=\"app/index.tsx\" title=\"Home\" />\n-        <Link href=\"/details?name=Dan\" asChild>\n-          <Button title=\"Show Details\" />\n-        </Link>\n-      </Container>\n-    </>\n-  );\n+  return <Redirect href=\"/welcome\"/>\n }\n"
+                },
+                {
+                    "date": 1739959538572,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,6 +4,6 @@\n import { Container } from '~/components/Container';\n import { ScreenContent } from '~/components/ScreenContent';\n \n export default function Home() {\n-  return <Redirect href=\"/welcome\"/>\n+  return <Redirect href=\"/welcome\" />;\n }\n"
+                },
+                {
+                    "date": 1739960019549,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,19 @@\n-import { Stack, Link, Redirect } from 'expo-router';\n+import { Stack, Link } from 'expo-router';\n \n import { Button } from '~/components/Button';\n import { Container } from '~/components/Container';\n import { ScreenContent } from '~/components/ScreenContent';\n \n export default function Home() {\n-  return <Redirect href=\"/welcome\" />;\n+  return (\n+    <>\n+      <Stack.Screen options={{ title: 'Home' }} />\n+      <Container>\n+        <ScreenContent path=\"app/index.tsx\" title=\"Home\" />\n+        <Link href=\"/welcome\">\n+          Welcome\n+        </Link>\n+      </Container>\n+    </>\n+  );\n }\n"
+                },
+                {
+                    "date": 1739960086795,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,8 @@\n   return (\n     <>\n       <Stack.Screen options={{ title: 'Home' }} />\n       <Container>\n-        <ScreenContent path=\"app/index.tsx\" title=\"Home\" />\n         <Link href=\"/welcome\">\n           Welcome\n         </Link>\n       </Container>\n"
+                },
+                {
+                    "date": 1739960094358,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,9 @@\n   return (\n     <>\n       <Stack.Screen options={{ title: 'Home' }} />\n       <Container>\n+        <ScreenContent path=\"app/index.tsx\" title=\"Home\" />\n         <Link href=\"/welcome\">\n           Welcome\n         </Link>\n       </Container>\n"
+                },
+                {
+                    "date": 1739960114157,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,8 @@\n   return (\n     <>\n       <Stack.Screen options={{ title: 'Home' }} />\n       <Container>\n-        <ScreenContent path=\"app/index.tsx\" title=\"Home\" />\n         <Link href=\"/welcome\">\n           Welcome\n         </Link>\n       </Container>\n"
+                },
+                {
+                    "date": 1739960361073,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,18 +1,19 @@\n-import { Stack, Link } from 'expo-router';\n+import { Stack, Link, Redirect } from 'expo-router';\n \n import { Button } from '~/components/Button';\n import { Container } from '~/components/Container';\n import { ScreenContent } from '~/components/ScreenContent';\n \n export default function Home() {\n-  return (\n-    <>\n-      <Stack.Screen options={{ title: 'Home' }} />\n-      <Container>\n-        <Link href=\"/welcome\">\n-          Welcome\n-        </Link>\n-      </Container>\n-    </>\n-  );\n+  return <Redirect href='/welcome'/>\n+  // return (\n+  //   <>\n+  //     <Stack.Screen options={{ title: 'Home' }} />\n+  //     <Container>\n+  //       <Link href=\"/welcome\">\n+  //         Welcome\n+  //       </Link>\n+  //     </Container>\n+  //   </>\n+  // );\n }\n"
+                }
+            ],
+            "date": 1739955764137,
+            "name": "Commit-0",
+            "content": "import { Stack, Link } from 'expo-router';\n\nimport { Button } from '~/components/Button';\nimport { Container } from '~/components/Container';\nimport { ScreenContent } from '~/components/ScreenContent';\n\nexport default function Home() {\n  return (\n    <>\n      <Stack.Screen options={{ title: 'Home' }} />\n      <Container>\n        <ScreenContent path=\"app/index.tsx\" title=\"Home\" />\n        <Link href=\"/details?name=Dan\" asChild>\n          <Button title=\"Show Details\" />\n        </Link>\n      </Container>\n    </>\n  );\n}\n"
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "sourceFile": "app/_layout.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 7,
+            "patches": [
+                {
+                    "date": 1739959717379,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1739959729585,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,6 @@\n \n import { Stack } from 'expo-router';\n \n export default function Layout() {\n-  return <Stack >\n-    <Stack.Screen name='welcome' options={{title:\"Welcome\"}}/>\n-  </Stack>;\n+  return <Stack ></Stack>;\n }\n"
+                },
+                {
+                    "date": 1739959739578,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,6 @@\n \n import { Stack } from 'expo-router';\n \n export default function Layout() {\n-  return <Stack ></Stack>;\n+  return <Stack />;\n }\n"
+                },
+                {
+                    "date": 1739959788368,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,8 @@\n \n import { Stack } from 'expo-router';\n \n export default function Layout() {\n-  return <Stack />;\n+  return <Stack >\n+    <Stack.Screen name='welcome' options={{title:\"Welcome\"}}/>\n+  </Stack>;\n }\n"
+                },
+                {
+                    "date": 1739959818428,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,7 +3,7 @@\n import { Stack } from 'expo-router';\n \n export default function Layout() {\n   return <Stack >\n-    <Stack.Screen name='welcome' options={{title:\"Welcome\"}}/>\n-  </Stack>;\n+      <Stack.Screen name = 'welcome' options={{title:\"Welcome\"}}/>\n+    </Stack>;\n }\n"
+                },
+                {
+                    "date": 1739959839487,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,7 +3,7 @@\n import { Stack } from 'expo-router';\n \n export default function Layout() {\n   return <Stack >\n-      <Stack.Screen name = 'welcome' options={{title:\"Welcome\"}}/>\n+      <Stack.Screen name = 'welcome' options={{title:\"New Title\"}}/>\n     </Stack>;\n }\n"
+                },
+                {
+                    "date": 1739959872060,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,7 +3,7 @@\n import { Stack } from 'expo-router';\n \n export default function Layout() {\n   return <Stack >\n-      <Stack.Screen name = 'welcome' options={{title:\"New Title\"}}/>\n+      <Stack.Screen name = 'welcome' options={{headerShown:false}}/>\n     </Stack>;\n }\n"
+                },
+                {
+                    "date": 1739959897032,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,7 +3,7 @@\n import { Stack } from 'expo-router';\n \n export default function Layout() {\n   return <Stack >\n-      <Stack.Screen name = 'welcome' options={{headerShown:false}}/>\n+      <Stack.Screen name = 'welcome' options={{headerShown:false,presentation:\"fullScreenModal\"}}/>\n     </Stack>;\n }\n"
+                }
+            ],
+            "date": 1739959717379,
+            "name": "Commit-0",
+            "content": "import '../global.css';\n\nimport { Stack } from 'expo-router';\n\nexport default function Layout() {\n  return <Stack >\n    <Stack.Screen name='welcome' options={{title:\"Welcome\"}}/>\n  </Stack>;\n}\n"
+        }
+    ]
+}
