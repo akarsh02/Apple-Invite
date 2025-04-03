@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 57,
+            "activePatchIndex": 155,
             "patches": [
                 {
                     "date": 1739959553000,
@@ -236,6 +236,398 @@
                 {
                     "date": 1739967613041,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,10 +10,10 @@\n         <Text className=\"text-5xl font-bold text-white\">Apple Invite</Text>\n         <Text className=\"r text-center text-lg  text-white/60\">\n           Create beautiful invitations for your eveents. Anyone can receive invitations.\n         </Text>\n-        <Pressable className='rounded-full bg-gray-50 py-4 px-8 self-center'>\n-          <Text className=' text-lg'>Create an Event</Text>\n+        <Pressable className=\"self-center rounded-full bg-gray-50 px-8 py-4\">\n+          <Text className=\"text-lg\">Create an Event</Text>\n         </Pressable>\n       </View>\n     </SafeAreaView>\n   );\n"
+                },
+                {
+                    "date": 1743674108108,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \n export default function WelcomeScreen() {\n   return (\n     <SafeAreaView className=\"flex-1 items-center bg-yellow-950\">\n-      <View className=\" h-3/5 w-full bg-gray-400\" />\n+      <View className=\"  w-full bg-gray-400\" />\n       <View className=\" flex-1 items-center justify-center gap-4 bg-yellow-800 p-4\">\n         <Text className=\"text-2xl  font-bold text-gray-300/60 \">Welcome to</Text>\n         <Text className=\"text-5xl font-bold text-white\">Apple Invite</Text>\n         <Text className=\"r text-center text-lg  text-white/60\">\n"
+                },
+                {
+                    "date": 1743674120202,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \n export default function WelcomeScreen() {\n   return (\n     <SafeAreaView className=\"flex-1 items-center bg-yellow-950\">\n-      <View className=\"  w-full bg-gray-400\" />\n+      <View className=\" h-3/5 w-full bg-gray-400\" />\n       <View className=\" flex-1 items-center justify-center gap-4 bg-yellow-800 p-4\">\n         <Text className=\"text-2xl  font-bold text-gray-300/60 \">Welcome to</Text>\n         <Text className=\"text-5xl font-bold text-white\">Apple Invite</Text>\n         <Text className=\"r text-center text-lg  text-white/60\">\n"
+                },
+                {
+                    "date": 1743674145981,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import { View, Text, SafeAreaView, Pressable } from 'react-native';\n \n export default function WelcomeScreen() {\n   return (\n-    <SafeAreaView className=\"flex-1 items-center bg-yellow-950\">\n+    <SafeAreaView className=\"flex-1 items-center bg-black\">\n       <View className=\" h-3/5 w-full bg-gray-400\" />\n       <View className=\" flex-1 items-center justify-center gap-4 bg-yellow-800 p-4\">\n         <Text className=\"text-2xl  font-bold text-gray-300/60 \">Welcome to</Text>\n         <Text className=\"text-5xl font-bold text-white\">Apple Invite</Text>\n"
+                },
+                {
+                    "date": 1743674151038,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,20 @@\n+import React from 'react';\n+import { View, Text, SafeAreaView, Pressable } from 'react-native';\n+\n+export default function WelcomeScreen() {\n+  return (\n+    <SafeAreaView className=\"flex-1 items-center bg-yellow-950\">\n+      <View className=\" h-3/5 w-full bg-gray-400\" />\n+      <View className=\" flex-1 items-center justify-center gap-4 bg-yellow-800 p-4\">\n+        <Text className=\"text-2xl  font-bold text-gray-300/60 \">Welcome to</Text>\n+        <Text className=\"text-5xl font-bold text-white\">Apple Invite</Text>\n+        <Text className=\"r text-center text-lg  text-white/60\">\n+          Create beautiful invitations for your eveents. Anyone can receive invitations.\n+        </Text>\n+        <Pressable className=\"self-center rounded-full bg-gray-50 px-8 py-4\">\n+          <Text className=\"text-lg\">Create an Event</Text>\n+        </Pressable>\n+      </View>\n+    </SafeAreaView>\n+  );\n+}\n"
+                },
+                {
+                    "date": 1743674302884,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n   return (\n     <SafeAreaView className=\"flex-1 items-center bg-yellow-950\">\n       <View className=\" h-3/5 w-full bg-gray-400\" />\n       <View className=\" flex-1 items-center justify-center gap-4 bg-yellow-800 p-4\">\n-        <Text className=\"text-2xl  font-bold text-gray-300/60 \">Welcome to</Text>\n+        <Text className=\"text-2xl  font-bold text-gray-300\">Welcome to</Text>\n         <Text className=\"text-5xl font-bold text-white\">Apple Invite</Text>\n         <Text className=\"r text-center text-lg  text-white/60\">\n           Create beautiful invitations for your eveents. Anyone can receive invitations.\n         </Text>\n@@ -17,24 +17,4 @@\n       </View>\n     </SafeAreaView>\n   );\n }\n-import React from 'react';\n-import { View, Text, SafeAreaView, Pressable } from 'react-native';\n-\n-export default function WelcomeScreen() {\n-  return (\n-    <SafeAreaView className=\"flex-1 items-center bg-black\">\n-      <View className=\" h-3/5 w-full bg-gray-400\" />\n-      <View className=\" flex-1 items-center justify-center gap-4 bg-yellow-800 p-4\">\n-        <Text className=\"text-2xl  font-bold text-gray-300/60 \">Welcome to</Text>\n-        <Text className=\"text-5xl font-bold text-white\">Apple Invite</Text>\n-        <Text className=\"r text-center text-lg  text-white/60\">\n-          Create beautiful invitations for your eveents. Anyone can receive invitations.\n-        </Text>\n-        <Pressable className=\"self-center rounded-full bg-gray-50 px-8 py-4\">\n-          <Text className=\"text-lg\">Create an Event</Text>\n-        </Pressable>\n-      </View>\n-    </SafeAreaView>\n-  );\n-}\n"
+                },
+                {
+                    "date": 1743675510177,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,20 +1,24 @@\n import React from 'react';\n import { View, Text, SafeAreaView, Pressable } from 'react-native';\n+import { Button } from '~/components/Button';\n \n export default function WelcomeScreen() {\n   return (\n     <SafeAreaView className=\"flex-1 items-center bg-yellow-950\">\n       <View className=\" h-3/5 w-full bg-gray-400\" />\n       <View className=\" flex-1 items-center justify-center gap-4 bg-yellow-800 p-4\">\n-        <Text className=\"text-2xl  font-bold text-gray-300\">Welcome to</Text>\n+        <Text className=\"text-2xl  font-bold text-gray-300/60 \">Welcome to</Text>\n         <Text className=\"text-5xl font-bold text-white\">Apple Invite</Text>\n         <Text className=\"r text-center text-lg  text-white/60\">\n           Create beautiful invitations for your eveents. Anyone can receive invitations.\n         </Text>\n-        <Pressable className=\"self-center rounded-full bg-gray-50 px-8 py-4\">\n+        {/* <Pressable className=\"self-center rounded-full bg-gray-50 px-8 py-4\">\n           <Text className=\"text-lg\">Create an Event</Text>\n-        </Pressable>\n+        </Pressable> */}\n+        <Button>\n+          something\n+        </Button>\n       </View>\n     </SafeAreaView>\n   );\n }\n"
+                },
+                {
+                    "date": 1743675566803,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import React from 'react';\n-import { View, Text, SafeAreaView, Pressable } from 'react-native';\n+import { View, Text, SafeAreaView, Pressable, TouchableOpacity } from 'react-native';\n import { Button } from '~/components/Button';\n \n export default function WelcomeScreen() {\n   return (\n@@ -14,11 +14,11 @@\n         </Text>\n         {/* <Pressable className=\"self-center rounded-full bg-gray-50 px-8 py-4\">\n           <Text className=\"text-lg\">Create an Event</Text>\n         </Pressable> */}\n-        <Button>\n-          something\n-        </Button>\n+       <TouchableOpacity className=''>\n+        <Text className=''>Create Event</Text>\n+       </TouchableOpacity>\n       </View>\n     </SafeAreaView>\n   );\n }\n"
+                },
+                {
+                    "date": 1743675582440,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n         </Text>\n         {/* <Pressable className=\"self-center rounded-full bg-gray-50 px-8 py-4\">\n           <Text className=\"text-lg\">Create an Event</Text>\n         </Pressable> */}\n-       <TouchableOpacity className=''>\n+       <TouchableOpacity className=' bg-gray-400'>\n         <Text className=''>Create Event</Text>\n        </TouchableOpacity>\n       </View>\n     </SafeAreaView>\n"
+                },
+                {
+                    "date": 1743675590464,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n         </Text>\n         {/* <Pressable className=\"self-center rounded-full bg-gray-50 px-8 py-4\">\n           <Text className=\"text-lg\">Create an Event</Text>\n         </Pressable> */}\n-       <TouchableOpacity className=' bg-gray-400'>\n+       <TouchableOpacity className=' bg-gray-400 p-4 rounded-lg'>\n         <Text className=''>Create Event</Text>\n        </TouchableOpacity>\n       </View>\n     </SafeAreaView>\n"
+                },
+                {
+                    "date": 1743675595639,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n         </Text>\n         {/* <Pressable className=\"self-center rounded-full bg-gray-50 px-8 py-4\">\n           <Text className=\"text-lg\">Create an Event</Text>\n         </Pressable> */}\n-       <TouchableOpacity className=' bg-gray-400 p-4 rounded-lg'>\n+       <TouchableOpacity className=' bg-gray-400 p-4 rounded-full'>\n         <Text className=''>Create Event</Text>\n        </TouchableOpacity>\n       </View>\n     </SafeAreaView>\n"
+                },
+                {
+                    "date": 1743675616109,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,11 +11,11 @@\n         <Text className=\"text-5xl font-bold text-white\">Apple Invite</Text>\n         <Text className=\"r text-center text-lg  text-white/60\">\n           Create beautiful invitations for your eveents. Anyone can receive invitations.\n         </Text>\n-        {/* <Pressable className=\"self-center rounded-full bg-gray-50 px-8 py-4\">\n+        <Pressable className=\"self-center rounded-full bg-gray-50 px-8 py-4\">\n           <Text className=\"text-lg\">Create an Event</Text>\n-        </Pressable> */}\n+        </Pressable>\n        <TouchableOpacity className=' bg-gray-400 p-4 rounded-full'>\n         <Text className=''>Create Event</Text>\n        </TouchableOpacity>\n       </View>\n"
+                },
+                {
+                    "date": 1743675645460,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,6 @@\n import React from 'react';\n-import { View, Text, SafeAreaView, Pressable, TouchableOpacity } from 'react-native';\n-import { Button } from '~/components/Button';\n+import { View, Text, SafeAreaView, Pressable } from 'react-native';\n \n export default function WelcomeScreen() {\n   return (\n     <SafeAreaView className=\"flex-1 items-center bg-yellow-950\">\n@@ -14,11 +13,8 @@\n         </Text>\n         <Pressable className=\"self-center rounded-full bg-gray-50 px-8 py-4\">\n           <Text className=\"text-lg\">Create an Event</Text>\n         </Pressable>\n-       <TouchableOpacity className=' bg-gray-400 p-4 rounded-full'>\n-        <Text className=''>Create Event</Text>\n-       </TouchableOpacity>\n       </View>\n     </SafeAreaView>\n   );\n }\n"
+                },
+                {
+                    "date": 1743675694448,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n         <Text className=\"text-5xl font-bold text-white\">Apple Invite</Text>\n         <Text className=\"r text-center text-lg  text-white/60\">\n           Create beautiful invitations for your eveents. Anyone can receive invitations.\n         </Text>\n-        <Pressable className=\"self-center rounded-full bg-gray-50 px-8 py-4\">\n+        <Pressable className=\"self-center rounded-full bg-gray-50\">\n           <Text className=\"text-lg\">Create an Event</Text>\n         </Pressable>\n       </View>\n     </SafeAreaView>\n"
+                },
+                {
+                    "date": 1743675701430,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n         <Text className=\"text-5xl font-bold text-white\">Apple Invite</Text>\n         <Text className=\"r text-center text-lg  text-white/60\">\n           Create beautiful invitations for your eveents. Anyone can receive invitations.\n         </Text>\n-        <Pressable className=\"self-center rounded-full bg-gray-50\">\n+        <Pressable className=\"self-center rounded-full bg-gray-50 p-4\">\n           <Text className=\"text-lg\">Create an Event</Text>\n         </Pressable>\n       </View>\n     </SafeAreaView>\n"
+                },
+                {
+                    "date": 1743675715606,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n         <Text className=\"text-5xl font-bold text-white\">Apple Invite</Text>\n         <Text className=\"r text-center text-lg  text-white/60\">\n           Create beautiful invitations for your eveents. Anyone can receive invitations.\n         </Text>\n-        <Pressable className=\"self-center rounded-full bg-gray-50 p-4\">\n+        <Pressable className=\"self-center rounded-full bg-gray-50 px-8 py-4\">\n           <Text className=\"text-lg\">Create an Event</Text>\n         </Pressable>\n       </View>\n     </SafeAreaView>\n"
+                },
+                {
+                    "date": 1743675764003,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n       <View className=\" h-3/5 w-full bg-gray-400\" />\n       <View className=\" flex-1 items-center justify-center gap-4 bg-yellow-800 p-4\">\n         <Text className=\"text-2xl  font-bold text-gray-300/60 \">Welcome to</Text>\n         <Text className=\"text-5xl font-bold text-white\">Apple Invite</Text>\n-        <Text className=\"r text-center text-lg  text-white/60\">\n+        <Text className=\"mb-5 text-center text-lg  text-white/60\">\n           Create beautiful invitations for your eveents. Anyone can receive invitations.\n         </Text>\n         <Pressable className=\"self-center rounded-full bg-gray-50 px-8 py-4\">\n           <Text className=\"text-lg\">Create an Event</Text>\n"
+                },
+                {
+                    "date": 1743676617240,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,14 @@\n import React from 'react';\n import { View, Text, SafeAreaView, Pressable } from 'react-native';\n \n export default function WelcomeScreen() {\n+  const events = [\n+    {\n+      id: 1,\n+      image: require('../assets/1.jpg'),\n+    },\n+  ];\n   return (\n     <SafeAreaView className=\"flex-1 items-center bg-yellow-950\">\n       <View className=\" h-3/5 w-full bg-gray-400\" />\n       <View className=\" flex-1 items-center justify-center gap-4 bg-yellow-800 p-4\">\n"
+                },
+                {
+                    "date": 1743676731551,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,40 @@\n     {\n       id: 1,\n       image: require('../assets/1.jpg'),\n     },\n+    {\n+      id: 2,\n+      image: require('../assets/2.png'),\n+    },\n+    {\n+      id: 3,\n+      image: require('../assets/3.png'),\n+    },\n+    {\n+      id: 4,\n+      image: require('../assets/4.png'),\n+    },\n+    {\n+      id: 5,\n+      image: require('../assets/5.png'),\n+    },\n+    {\n+      id: 6,\n+      image: require('../assets/6.png'),\n+    },\n+    {\n+      id: 7,\n+      image: require('../assets/7.png'),\n+    },\n+    {\n+      id: 8,\n+      image: require('../assets/8.png'),\n+    },\n+    {\n+      id: 9,\n+      image: require('../assets/9.png'),\n+    },\n   ];\n   return (\n     <SafeAreaView className=\"flex-1 items-center bg-yellow-950\">\n       <View className=\" h-3/5 w-full bg-gray-400\" />\n"
+                },
+                {
+                    "date": 1743676883232,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,9 +41,16 @@\n     },\n   ];\n   return (\n     <SafeAreaView className=\"flex-1 items-center bg-yellow-950\">\n-      <View className=\" h-3/5 w-full bg-gray-400\" />\n+      <View className=\" h-3/5 w-full bg-gray-400\" >\n+      {events.map(event =>(\n+        <View>\n+          <Image source ={event.image}/>\n+          </View>\n+      ))}\n+      \n+      </View>\n       <View className=\" flex-1 items-center justify-center gap-4 bg-yellow-800 p-4\">\n         <Text className=\"text-2xl  font-bold text-gray-300/60 \">Welcome to</Text>\n         <Text className=\"text-5xl font-bold text-white\">Apple Invite</Text>\n         <Text className=\"mb-5 text-center text-lg  text-white/60\">\n"
+                },
+                {
+                    "date": 1743676908760,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n export default function WelcomeScreen() {\n   const events = [\n     {\n       id: 1,\n-      image: require('../assets/1.jpg'),\n+      image: require('../assets/1.png'),\n     },\n     {\n       id: 2,\n       image: require('../assets/2.png'),\n"
+                },
+                {
+                    "date": 1743676956395,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import React from 'react';\n-import { View, Text, SafeAreaView, Pressable } from 'react-native';\n+import { View, Text, SafeAreaView, Pressable, Image } from 'react-native';\n \n export default function WelcomeScreen() {\n   const events = [\n     {\n@@ -41,15 +41,14 @@\n     },\n   ];\n   return (\n     <SafeAreaView className=\"flex-1 items-center bg-yellow-950\">\n-      <View className=\" h-3/5 w-full bg-gray-400\" >\n-      {events.map(event =>(\n-        <View>\n-          <Image source ={event.image}/>\n+      <View className=\" h-3/5 w-full bg-gray-400\">\n+        {events.map((event) => (\n+          <View>\n+            <Image source={event.image} />\n           </View>\n-      ))}\n-      \n+        ))}\n       </View>\n       <View className=\" flex-1 items-center justify-center gap-4 bg-yellow-800 p-4\">\n         <Text className=\"text-2xl  font-bold text-gray-300/60 \">Welcome to</Text>\n         <Text className=\"text-5xl font-bold text-white\">Apple Invite</Text>\n"
+                },
+                {
+                    "date": 1743677090777,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,9 @@\n   return (\n     <SafeAreaView className=\"flex-1 items-center bg-yellow-950\">\n       <View className=\" h-3/5 w-full bg-gray-400\">\n         {events.map((event) => (\n-          <View>\n+          <View className='h-ful w-96'>\n             <Image source={event.image} />\n           </View>\n         ))}\n       </View>\n"
+                },
+                {
+                    "date": 1743677098436,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,9 @@\n   return (\n     <SafeAreaView className=\"flex-1 items-center bg-yellow-950\">\n       <View className=\" h-3/5 w-full bg-gray-400\">\n         {events.map((event) => (\n-          <View className='h-ful w-96'>\n+          <View className=\"h-ful w-96\">\n             <Image source={event.image} />\n           </View>\n         ))}\n       </View>\n"
+                },
+                {
+                    "date": 1743677119549,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,10 +43,10 @@\n   return (\n     <SafeAreaView className=\"flex-1 items-center bg-yellow-950\">\n       <View className=\" h-3/5 w-full bg-gray-400\">\n         {events.map((event) => (\n-          <View className=\"h-ful w-96\">\n-            <Image source={event.image} />\n+          <View className=\"h-full w-96\">\n+            <Image className='h-full w-full' source={event.image} />\n           </View>\n         ))}\n       </View>\n       <View className=\" flex-1 items-center justify-center gap-4 bg-yellow-800 p-4\">\n"
+                },
+                {
+                    "date": 1743677149756,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,9 +44,9 @@\n     <SafeAreaView className=\"flex-1 items-center bg-yellow-950\">\n       <View className=\" h-3/5 w-full bg-gray-400\">\n         {events.map((event) => (\n           <View className=\"h-full w-96\">\n-            <Image className='h-full w-full' source={event.image} />\n+            <Image className=\"h-full w-full\" source={event.image} />\n           </View>\n         ))}\n       </View>\n       <View className=\" flex-1 items-center justify-center gap-4 bg-yellow-800 p-4\">\n"
+                },
+                {
+                    "date": 1743677250046,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import React from 'react';\n-import { View, Text, SafeAreaView, Pressable, Image } from 'react-native';\n+import { View, Text, SafeAreaView, Pressable, Image, ScrollView } from 'react-native';\n \n export default function WelcomeScreen() {\n   const events = [\n     {\n@@ -42,13 +42,15 @@\n   ];\n   return (\n     <SafeAreaView className=\"flex-1 items-center bg-yellow-950\">\n       <View className=\" h-3/5 w-full bg-gray-400\">\n+      <ScrollView>\n         {events.map((event) => (\n           <View className=\"h-full w-96\">\n             <Image className=\"h-full w-full\" source={event.image} />\n           </View>\n         ))}\n+        </ScrollView>\n       </View>\n       <View className=\" flex-1 items-center justify-center gap-4 bg-yellow-800 p-4\">\n         <Text className=\"text-2xl  font-bold text-gray-300/60 \">Welcome to</Text>\n         <Text className=\"text-5xl font-bold text-white\">Apple Invite</Text>\n"
+                },
+                {
+                    "date": 1743677276770,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,9 +42,9 @@\n   ];\n   return (\n     <SafeAreaView className=\"flex-1 items-center bg-yellow-950\">\n       <View className=\" h-3/5 w-full bg-gray-400\">\n-      <ScrollView>\n+      <ScrollView horizontal >\n         {events.map((event) => (\n           <View className=\"h-full w-96\">\n             <Image className=\"h-full w-full\" source={event.image} />\n           </View>\n"
+                },
+                {
+                    "date": 1743677305323,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,9 +42,9 @@\n   ];\n   return (\n     <SafeAreaView className=\"flex-1 items-center bg-yellow-950\">\n       <View className=\" h-3/5 w-full bg-gray-400\">\n-      <ScrollView horizontal >\n+      <ScrollView horizontal className='px-2'>\n         {events.map((event) => (\n           <View className=\"h-full w-96\">\n             <Image className=\"h-full w-full\" source={event.image} />\n           </View>\n"
+                },
+                {
+                    "date": 1743677315755,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,11 +42,11 @@\n   ];\n   return (\n     <SafeAreaView className=\"flex-1 items-center bg-yellow-950\">\n       <View className=\" h-3/5 w-full bg-gray-400\">\n-      <ScrollView horizontal className='px-2'>\n+      <ScrollView horizontal>\n         {events.map((event) => (\n-          <View className=\"h-full w-96\">\n+          <View className=\"h-full w-96 p-2\">\n             <Image className=\"h-full w-full\" source={event.image} />\n           </View>\n         ))}\n         </ScrollView>\n"
+                },
+                {
+                    "date": 1743677321110,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,9 +44,9 @@\n     <SafeAreaView className=\"flex-1 items-center bg-yellow-950\">\n       <View className=\" h-3/5 w-full bg-gray-400\">\n       <ScrollView horizontal>\n         {events.map((event) => (\n-          <View className=\"h-full w-96 p-2\">\n+          <View className=\"h-full w-96 px-10\">\n             <Image className=\"h-full w-full\" source={event.image} />\n           </View>\n         ))}\n         </ScrollView>\n"
+                },
+                {
+                    "date": 1743677334195,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,12 +41,12 @@\n     },\n   ];\n   return (\n     <SafeAreaView className=\"flex-1 items-center bg-yellow-950\">\n-      <View className=\" h-3/5 w-full bg-gray-400\">\n+      <View className=\" h-3/5 w-full bg-gray-400 px-10\">\n       <ScrollView horizontal>\n         {events.map((event) => (\n-          <View className=\"h-full w-96 px-10\">\n+          <View className=\"h-full w-96 \">\n             <Image className=\"h-full w-full\" source={event.image} />\n           </View>\n         ))}\n         </ScrollView>\n"
+                },
+                {
+                    "date": 1743677352460,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,9 +41,9 @@\n     },\n   ];\n   return (\n     <SafeAreaView className=\"flex-1 items-center bg-yellow-950\">\n-      <View className=\" h-3/5 w-full bg-gray-400 px-10\">\n+      <View className=\" h-3/5 w-full bg-gray-400\">\n       <ScrollView horizontal>\n         {events.map((event) => (\n           <View className=\"h-full w-96 \">\n             <Image className=\"h-full w-full\" source={event.image} />\n"
+                },
+                {
+                    "date": 1743677388736,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,9 +44,9 @@\n     <SafeAreaView className=\"flex-1 items-center bg-yellow-950\">\n       <View className=\" h-3/5 w-full bg-gray-400\">\n       <ScrollView horizontal>\n         {events.map((event) => (\n-          <View className=\"h-full w-96 \">\n+          <View className=\"h-full w-96 p-5\">\n             <Image className=\"h-full w-full\" source={event.image} />\n           </View>\n         ))}\n         </ScrollView>\n"
+                },
+                {
+                    "date": 1743677429005,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,9 +44,9 @@\n     <SafeAreaView className=\"flex-1 items-center bg-yellow-950\">\n       <View className=\" h-3/5 w-full bg-gray-400\">\n       <ScrollView horizontal>\n         {events.map((event) => (\n-          <View className=\"h-full w-96 p-5\">\n+          <View className=\"h-full w-96 p-10\">\n             <Image className=\"h-full w-full\" source={event.image} />\n           </View>\n         ))}\n         </ScrollView>\n"
+                },
+                {
+                    "date": 1743677438912,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,9 +44,9 @@\n     <SafeAreaView className=\"flex-1 items-center bg-yellow-950\">\n       <View className=\" h-3/5 w-full bg-gray-400\">\n       <ScrollView horizontal>\n         {events.map((event) => (\n-          <View className=\"h-full w-96 p-10\">\n+          <View className=\"h-full w-96 p-5\">\n             <Image className=\"h-full w-full\" source={event.image} />\n           </View>\n         ))}\n         </ScrollView>\n"
+                },
+                {
+                    "date": 1743677446476,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,9 +41,9 @@\n     },\n   ];\n   return (\n     <SafeAreaView className=\"flex-1 items-center bg-yellow-950\">\n-      <View className=\" h-3/5 w-full bg-gray-400\">\n+      <View className=\" h-3/5 w-full\">\n       <ScrollView horizontal>\n         {events.map((event) => (\n           <View className=\"h-full w-96 p-5\">\n             <Image className=\"h-full w-full\" source={event.image} />\n"
+                },
+                {
+                    "date": 1743677468800,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,9 +45,9 @@\n       <View className=\" h-3/5 w-full\">\n       <ScrollView horizontal>\n         {events.map((event) => (\n           <View className=\"h-full w-96 p-5\">\n-            <Image className=\"h-full w-full\" source={event.image} />\n+            <Image className=\"h-full w-full rounded-lg\" source={event.image} />\n           </View>\n         ))}\n         </ScrollView>\n       </View>\n"
+                },
+                {
+                    "date": 1743677513662,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,9 +45,9 @@\n       <View className=\" h-3/5 w-full\">\n       <ScrollView horizontal>\n         {events.map((event) => (\n           <View className=\"h-full w-96 p-5\">\n-            <Image className=\"h-full w-full rounded-lg\" source={event.image} />\n+            <Image style={{width:\"100%\", height:\"100%\"}} className=\"h-full w-full rounded-lg\" source={event.image} />\n           </View>\n         ))}\n         </ScrollView>\n       </View>\n"
+                },
+                {
+                    "date": 1743677612205,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,9 +45,9 @@\n       <View className=\" h-3/5 w-full\">\n       <ScrollView horizontal>\n         {events.map((event) => (\n           <View className=\"h-full w-96 p-5\">\n-            <Image style={{width:\"100%\", height:\"100%\"}} className=\"h-full w-full rounded-lg\" source={event.image} />\n+            <Image style={{width:\"100%\", height:\"100%\"}} className=\"h-full w-full rounded-3xl\" source={event.image} />\n           </View>\n         ))}\n         </ScrollView>\n       </View>\n"
+                },
+                {
+                    "date": 1743681749505,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,9 +44,9 @@\n     <SafeAreaView className=\"flex-1 items-center bg-yellow-950\">\n       <View className=\" h-3/5 w-full\">\n       <ScrollView horizontal>\n         {events.map((event) => (\n-          <View className=\"h-full w-96 p-5\">\n+          <View key={event.id} className=\"h-full w-96 p-5\">\n             <Image style={{width:\"100%\", height:\"100%\"}} className=\"h-full w-full rounded-3xl\" source={event.image} />\n           </View>\n         ))}\n         </ScrollView>\n"
+                },
+                {
+                    "date": 1743681796926,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,14 +42,18 @@\n   ];\n   return (\n     <SafeAreaView className=\"flex-1 items-center bg-yellow-950\">\n       <View className=\" h-3/5 w-full\">\n-      <ScrollView horizontal>\n-        {events.map((event) => (\n-          <View key={event.id} className=\"h-full w-96 p-5\">\n-            <Image style={{width:\"100%\", height:\"100%\"}} className=\"h-full w-full rounded-3xl\" source={event.image} />\n-          </View>\n-        ))}\n+        <ScrollView horizontal>\n+          {events.map((event) => (\n+            <View key={event.id} className=\"h-full w-96 p-5\">\n+              <Image\n+                style={{ width: '100%', height: '100%' }}\n+                className=\"h-full w-full rounded-3xl\"\n+                source={event.image}\n+              />\n+            </View>\n+          ))}\n         </ScrollView>\n       </View>\n       <View className=\" flex-1 items-center justify-center gap-4 bg-yellow-800 p-4\">\n         <Text className=\"text-2xl  font-bold text-gray-300/60 \">Welcome to</Text>\n"
+                },
+                {
+                    "date": 1743681844563,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,8 +41,9 @@\n     },\n   ];\n   return (\n     <SafeAreaView className=\"flex-1 items-center bg-yellow-950\">\n+      <Image source={events[0].image}/>\n       <View className=\" h-3/5 w-full\">\n         <ScrollView horizontal>\n           {events.map((event) => (\n             <View key={event.id} className=\"h-full w-96 p-5\">\n"
+                },
+                {
+                    "date": 1743681928644,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,9 +41,9 @@\n     },\n   ];\n   return (\n     <SafeAreaView className=\"flex-1 items-center bg-yellow-950\">\n-      <Image source={events[0].image}/>\n+      <Image source={events[0].image} className='absolute'/>\n       <View className=\" h-3/5 w-full\">\n         <ScrollView horizontal>\n           {events.map((event) => (\n             <View key={event.id} className=\"h-full w-96 p-5\">\n"
+                },
+                {
+                    "date": 1743681965798,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,9 +41,9 @@\n     },\n   ];\n   return (\n     <SafeAreaView className=\"flex-1 items-center bg-yellow-950\">\n-      <Image source={events[0].image} className='absolute'/>\n+      <Image source={events[0].image} className='absolute top-0 bottom-0 right-0 left-0'/>\n       <View className=\" h-3/5 w-full\">\n         <ScrollView horizontal>\n           {events.map((event) => (\n             <View key={event.id} className=\"h-full w-96 p-5\">\n"
+                },
+                {
+                    "date": 1743682032113,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,9 +41,9 @@\n     },\n   ];\n   return (\n     <SafeAreaView className=\"flex-1 items-center bg-yellow-950\">\n-      <Image source={events[0].image} className='absolute top-0 bottom-0 right-0 left-0'/>\n+      <Image source={events[0].image} className='absolute inset-0'/>\n       <View className=\" h-3/5 w-full\">\n         <ScrollView horizontal>\n           {events.map((event) => (\n             <View key={event.id} className=\"h-full w-96 p-5\">\n"
+                },
+                {
+                    "date": 1743682072935,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,9 @@\n             </View>\n           ))}\n         </ScrollView>\n       </View>\n-      <View className=\" flex-1 items-center justify-center gap-4 bg-yellow-800 p-4\">\n+      <View className=\" flex-1 items-center justify-center gap-4 p-4\">\n         <Text className=\"text-2xl  font-bold text-gray-300/60 \">Welcome to</Text>\n         <Text className=\"text-5xl font-bold text-white\">Apple Invite</Text>\n         <Text className=\"mb-5 text-center text-lg  text-white/60\">\n           Create beautiful invitations for your eveents. Anyone can receive invitations.\n"
+                },
+                {
+                    "date": 1743682613321,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n+import BlurView from 'expo-blur'\n import React from 'react';\n import { View, Text, SafeAreaView, Pressable, Image, ScrollView } from 'react-native';\n \n export default function WelcomeScreen() {\n@@ -42,8 +43,9 @@\n   ];\n   return (\n     <SafeAreaView className=\"flex-1 items-center bg-yellow-950\">\n       <Image source={events[0].image} className='absolute inset-0'/>\n+      \n       <View className=\" h-3/5 w-full\">\n         <ScrollView horizontal>\n           {events.map((event) => (\n             <View key={event.id} className=\"h-full w-96 p-5\">\n"
+                },
+                {
+                    "date": 1743682629123,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,9 @@\n   ];\n   return (\n     <SafeAreaView className=\"flex-1 items-center bg-yellow-950\">\n       <Image source={events[0].image} className='absolute inset-0'/>\n-      \n+      <BlurView>\n       <View className=\" h-3/5 w-full\">\n         <ScrollView horizontal>\n           {events.map((event) => (\n             <View key={event.id} className=\"h-full w-96 p-5\">\n@@ -57,8 +57,9 @@\n             </View>\n           ))}\n         </ScrollView>\n       </View>\n+      </BlurView>\n       <View className=\" flex-1 items-center justify-center gap-4 p-4\">\n         <Text className=\"text-2xl  font-bold text-gray-300/60 \">Welcome to</Text>\n         <Text className=\"text-5xl font-bold text-white\">Apple Invite</Text>\n         <Text className=\"mb-5 text-center text-lg  text-white/60\">\n"
+                },
+                {
+                    "date": 1743682697209,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-import BlurView from 'expo-blur'\n+import BlurView from 'expo-blur';\n import React from 'react';\n import { View, Text, SafeAreaView, Pressable, Image, ScrollView } from 'react-native';\n \n export default function WelcomeScreen() {\n"
+                },
+                {
+                    "date": 1743682715407,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-import BlurView from 'expo-blur';\n+\n import React from 'react';\n import { View, Text, SafeAreaView, Pressable, Image, ScrollView } from 'react-native';\n \n export default function WelcomeScreen() {\n@@ -43,9 +43,9 @@\n   ];\n   return (\n     <SafeAreaView className=\"flex-1 items-center bg-yellow-950\">\n       <Image source={events[0].image} className='absolute inset-0'/>\n-      <BlurView>\n+<BlurView>\n       <View className=\" h-3/5 w-full\">\n         <ScrollView horizontal>\n           {events.map((event) => (\n             <View key={event.id} className=\"h-full w-96 p-5\">\n"
+                },
+                {
+                    "date": 1743682722623,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-\n+import BlurView from 'expo-blur';\n import React from 'react';\n import { View, Text, SafeAreaView, Pressable, Image, ScrollView } from 'react-native';\n \n export default function WelcomeScreen() {\n@@ -43,9 +43,9 @@\n   ];\n   return (\n     <SafeAreaView className=\"flex-1 items-center bg-yellow-950\">\n       <Image source={events[0].image} className='absolute inset-0'/>\n-<BlurView>\n+      <BlurView>\n       <View className=\" h-3/5 w-full\">\n         <ScrollView horizontal>\n           {events.map((event) => (\n             <View key={event.id} className=\"h-full w-96 p-5\">\n"
+                },
+                {
+                    "date": 1743682739832,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-import BlurView from 'expo-blur';\n+import {BlurView} from 'expo-blur';\n import React from 'react';\n import { View, Text, SafeAreaView, Pressable, Image, ScrollView } from 'react-native';\n \n export default function WelcomeScreen() {\n"
+                },
+                {
+                    "date": 1743682768287,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,8 @@\n                 source={event.image}\n               />\n             </View>\n           ))}\n-        </ScrollView>\n       </View>\n       </BlurView>\n       <View className=\" flex-1 items-center justify-center gap-4 p-4\">\n         <Text className=\"text-2xl  font-bold text-gray-300/60 \">Welcome to</Text>\n@@ -68,7 +67,8 @@\n         <Pressable className=\"self-center rounded-full bg-gray-50 px-8 py-4\">\n           <Text className=\"text-lg\">Create an Event</Text>\n         </Pressable>\n       </View>\n+      </ScrollView>\n     </SafeAreaView>\n   );\n }\n"
+                },
+                {
+                    "date": 1743682801633,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,8 +55,9 @@\n                 source={event.image}\n               />\n             </View>\n           ))}\n+        </ScrollView>\n       </View>\n       </BlurView>\n       <View className=\" flex-1 items-center justify-center gap-4 p-4\">\n         <Text className=\"text-2xl  font-bold text-gray-300/60 \">Welcome to</Text>\n@@ -67,8 +68,7 @@\n         <Pressable className=\"self-center rounded-full bg-gray-50 px-8 py-4\">\n           <Text className=\"text-lg\">Create an Event</Text>\n         </Pressable>\n       </View>\n-      </ScrollView>\n     </SafeAreaView>\n   );\n }\n"
+                },
+                {
+                    "date": 1743682819501,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -68,7 +68,8 @@\n         <Pressable className=\"self-center rounded-full bg-gray-50 px-8 py-4\">\n           <Text className=\"text-lg\">Create an Event</Text>\n         </Pressable>\n       </View>\n+      </BlurView>\n     </SafeAreaView>\n   );\n }\n"
+                },
+                {
+                    "date": 1743682841918,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -57,9 +57,9 @@\n             </View>\n           ))}\n         </ScrollView>\n       </View>\n-      </BlurView>\n+     \n       <View className=\" flex-1 items-center justify-center gap-4 p-4\">\n         <Text className=\"text-2xl  font-bold text-gray-300/60 \">Welcome to</Text>\n         <Text className=\"text-5xl font-bold text-white\">Apple Invite</Text>\n         <Text className=\"mb-5 text-center text-lg  text-white/60\">\n"
+                },
+                {
+                    "date": 1743682870690,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,9 @@\n   ];\n   return (\n     <SafeAreaView className=\"flex-1 items-center bg-yellow-950\">\n       <Image source={events[0].image} className='absolute inset-0'/>\n-      <BlurView>\n+      <BlurView intensity={100}>\n       <View className=\" h-3/5 w-full\">\n         <ScrollView horizontal>\n           {events.map((event) => (\n             <View key={event.id} className=\"h-full w-96 p-5\">\n"
+                },
+                {
+                    "date": 1743682916774,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,9 +41,9 @@\n       image: require('../assets/9.png'),\n     },\n   ];\n   return (\n-    <SafeAreaView className=\"flex-1 items-center bg-yellow-950\">\n+    <View className=\"flex-1 items-center bg-yellow-950\">\n       <Image source={events[0].image} className='absolute inset-0'/>\n       <BlurView intensity={100}>\n       <View className=\" h-3/5 w-full\">\n         <ScrollView horizontal>\n@@ -69,7 +69,7 @@\n           <Text className=\"text-lg\">Create an Event</Text>\n         </Pressable>\n       </View>\n       </BlurView>\n-    </SafeAreaView>\n+    </View>\n   );\n }\n"
+                },
+                {
+                    "date": 1743683090991,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,8 +44,9 @@\n   return (\n     <View className=\"flex-1 items-center bg-yellow-950\">\n       <Image source={events[0].image} className='absolute inset-0'/>\n       <BlurView intensity={100}>\n+        <SafeAreaView>\n       <View className=\" h-3/5 w-full\">\n         <ScrollView horizontal>\n           {events.map((event) => (\n             <View key={event.id} className=\"h-full w-96 p-5\">\n@@ -57,8 +58,9 @@\n             </View>\n           ))}\n         </ScrollView>\n       </View>\n+      </SafeAreaView>\n      \n       <View className=\" flex-1 items-center justify-center gap-4 p-4\">\n         <Text className=\"text-2xl  font-bold text-gray-300/60 \">Welcome to</Text>\n         <Text className=\"text-5xl font-bold text-white\">Apple Invite</Text>\n"
+                },
+                {
+                    "date": 1743683102952,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,9 +44,9 @@\n   return (\n     <View className=\"flex-1 items-center bg-yellow-950\">\n       <Image source={events[0].image} className='absolute inset-0'/>\n       <BlurView intensity={100}>\n-        <SafeAreaView>\n+        <SafeAreaView className='flex-1'>\n       <View className=\" h-3/5 w-full\">\n         <ScrollView horizontal>\n           {events.map((event) => (\n             <View key={event.id} className=\"h-full w-96 p-5\">\n"
+                },
+                {
+                    "date": 1743683177458,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,9 +44,9 @@\n   return (\n     <View className=\"flex-1 items-center bg-yellow-950\">\n       <Image source={events[0].image} className='absolute inset-0'/>\n       <BlurView intensity={100}>\n-        <SafeAreaView className='flex-1'>\n+        <SafeAreaView>\n       <View className=\" h-3/5 w-full\">\n         <ScrollView horizontal>\n           {events.map((event) => (\n             <View key={event.id} className=\"h-full w-96 p-5\">\n"
+                },
+                {
+                    "date": 1743683204731,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,9 +50,9 @@\n         <ScrollView horizontal>\n           {events.map((event) => (\n             <View key={event.id} className=\"h-full w-96 p-5\">\n               <Image\n-                style={{ width: '100%', height: '100%' }}\n+                // style={{ width: '100%', height: '100%' }}\n                 className=\"h-full w-full rounded-3xl\"\n                 source={event.image}\n               />\n             </View>\n"
+                },
+                {
+                    "date": 1743683216621,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,9 +50,9 @@\n         <ScrollView horizontal>\n           {events.map((event) => (\n             <View key={event.id} className=\"h-full w-96 p-5\">\n               <Image\n-                // style={{ width: '100%', height: '100%' }}\n+                style={{ width: '100%', height: '100%' }}\n                 className=\"h-full w-full rounded-3xl\"\n                 source={event.image}\n               />\n             </View>\n"
+                },
+                {
+                    "date": 1743683411248,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,9 +42,9 @@\n     },\n   ];\n   return (\n     <View className=\"flex-1 items-center bg-yellow-950\">\n-      <Image source={events[0].image} className='absolute inset-0'/>\n+      <Image source={events[4].image} className='absolute inset-0'/>\n       <BlurView intensity={100}>\n         <SafeAreaView>\n       <View className=\" h-3/5 w-full\">\n         <ScrollView horizontal>\n"
+                },
+                {
+                    "date": 1743683561100,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,9 +50,9 @@\n         <ScrollView horizontal>\n           {events.map((event) => (\n             <View key={event.id} className=\"h-full w-96 p-5\">\n               <Image\n-                style={{ width: '100%', height: '100%' }}\n+                style={{ width: '100%', height: 'full' }}\n                 className=\"h-full w-full rounded-3xl\"\n                 source={event.image}\n               />\n             </View>\n"
+                },
+                {
+                    "date": 1743683570840,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,9 +50,9 @@\n         <ScrollView horizontal>\n           {events.map((event) => (\n             <View key={event.id} className=\"h-full w-96 p-5\">\n               <Image\n-                style={{ width: '100%', height: 'full' }}\n+                style={{ width: '100%', height: '100%' }}\n                 className=\"h-full w-full rounded-3xl\"\n                 source={event.image}\n               />\n             </View>\n"
+                },
+                {
+                    "date": 1743683578262,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,9 +50,9 @@\n         <ScrollView horizontal>\n           {events.map((event) => (\n             <View key={event.id} className=\"h-full w-96 p-5\">\n               <Image\n-                style={{ width: '100%', height: '100%' }}\n+                style={{ width: '100%', height: '500%' }}\n                 className=\"h-full w-full rounded-3xl\"\n                 source={event.image}\n               />\n             </View>\n"
+                },
+                {
+                    "date": 1743683584239,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,9 +50,9 @@\n         <ScrollView horizontal>\n           {events.map((event) => (\n             <View key={event.id} className=\"h-full w-96 p-5\">\n               <Image\n-                style={{ width: '100%', height: '500%' }}\n+                style={{ width: '100%', height: '1000%' }}\n                 className=\"h-full w-full rounded-3xl\"\n                 source={event.image}\n               />\n             </View>\n"
+                },
+                {
+                    "date": 1743683589640,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,9 +50,9 @@\n         <ScrollView horizontal>\n           {events.map((event) => (\n             <View key={event.id} className=\"h-full w-96 p-5\">\n               <Image\n-                style={{ width: '100%', height: '1000%' }}\n+                style={{ width: '100%', height: '100%' }}\n                 className=\"h-full w-full rounded-3xl\"\n                 source={event.image}\n               />\n             </View>\n"
+                },
+                {
+                    "date": 1743683644017,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,8 +43,9 @@\n   ];\n   return (\n     <View className=\"flex-1 items-center bg-yellow-950\">\n       <Image source={events[4].image} className='absolute inset-0'/>\n+      <View className='absolute '/>\n       <BlurView intensity={100}>\n         <SafeAreaView>\n       <View className=\" h-3/5 w-full\">\n         <ScrollView horizontal>\n"
+                },
+                {
+                    "date": 1743683676977,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,9 +45,9 @@\n     <View className=\"flex-1 items-center bg-yellow-950\">\n       <Image source={events[4].image} className='absolute inset-0'/>\n       <View className='absolute '/>\n       <BlurView intensity={100}>\n-        <SafeAreaView>\n+      <SafeAreaView>\n       <View className=\" h-3/5 w-full\">\n         <ScrollView horizontal>\n           {events.map((event) => (\n             <View key={event.id} className=\"h-full w-96 p-5\">\n"
+                },
+                {
+                    "date": 1743683686622,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,9 +45,9 @@\n     <View className=\"flex-1 items-center bg-yellow-950\">\n       <Image source={events[4].image} className='absolute inset-0'/>\n       <View className='absolute '/>\n       <BlurView intensity={100}>\n-      <SafeAreaView>\n+      <SafeAreaView className='h-3/5 w-full'>\n       <View className=\" h-3/5 w-full\">\n         <ScrollView horizontal>\n           {events.map((event) => (\n             <View key={event.id} className=\"h-full w-96 p-5\">\n"
+                },
+                {
+                    "date": 1743683694885,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,9 +46,9 @@\n       <Image source={events[4].image} className='absolute inset-0'/>\n       <View className='absolute '/>\n       <BlurView intensity={100}>\n       <SafeAreaView className='h-3/5 w-full'>\n-      <View className=\" h-3/5 w-full\">\n+      <View >\n         <ScrollView horizontal>\n           {events.map((event) => (\n             <View key={event.id} className=\"h-full w-96 p-5\">\n               <Image\n"
+                },
+                {
+                    "date": 1743683724730,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,12 +43,12 @@\n   ];\n   return (\n     <View className=\"flex-1 items-center bg-yellow-950\">\n       <Image source={events[4].image} className='absolute inset-0'/>\n-      <View className='absolute '/>\n+      <View className='absolute bg-black'/>\n       <BlurView intensity={100}>\n       <SafeAreaView className='h-3/5 w-full'>\n-      <View >\n+      <View>\n         <ScrollView horizontal>\n           {events.map((event) => (\n             <View key={event.id} className=\"h-full w-96 p-5\">\n               <Image\n"
+                },
+                {
+                    "date": 1743683764080,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,9 @@\n   ];\n   return (\n     <View className=\"flex-1 items-center bg-yellow-950\">\n       <Image source={events[4].image} className='absolute inset-0'/>\n-      <View className='absolute bg-black'/>\n+      <View className='absolute bg-black inset-0'/>\n       <BlurView intensity={100}>\n       <SafeAreaView className='h-3/5 w-full'>\n       <View>\n         <ScrollView horizontal>\n"
+                },
+                {
+                    "date": 1743683790853,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,9 @@\n   ];\n   return (\n     <View className=\"flex-1 items-center bg-yellow-950\">\n       <Image source={events[4].image} className='absolute inset-0'/>\n-      <View className='absolute bg-black inset-0'/>\n+      <View className='absolute bg-black/50 inset-0'/>\n       <BlurView intensity={100}>\n       <SafeAreaView className='h-3/5 w-full'>\n       <View>\n         <ScrollView horizontal>\n"
+                },
+                {
+                    "date": 1743683806907,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,9 +44,9 @@\n   return (\n     <View className=\"flex-1 items-center bg-yellow-950\">\n       <Image source={events[4].image} className='absolute inset-0'/>\n       <View className='absolute bg-black/50 inset-0'/>\n-      <BlurView intensity={100}>\n+      <BlurView intensity={70}>\n       <SafeAreaView className='h-3/5 w-full'>\n       <View>\n         <ScrollView horizontal>\n           {events.map((event) => (\n"
+                },
+                {
+                    "date": 1743683812814,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,9 +44,9 @@\n   return (\n     <View className=\"flex-1 items-center bg-yellow-950\">\n       <Image source={events[4].image} className='absolute inset-0'/>\n       <View className='absolute bg-black/50 inset-0'/>\n-      <BlurView intensity={70}>\n+      <BlurView intensity={100}>\n       <SafeAreaView className='h-3/5 w-full'>\n       <View>\n         <ScrollView horizontal>\n           {events.map((event) => (\n"
+                },
+                {
+                    "date": 1743683818894,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,9 +42,9 @@\n     },\n   ];\n   return (\n     <View className=\"flex-1 items-center bg-yellow-950\">\n-      <Image source={events[4].image} className='absolute inset-0'/>\n+      <Image source={events[1].image} className='absolute inset-0'/>\n       <View className='absolute bg-black/50 inset-0'/>\n       <BlurView intensity={100}>\n       <SafeAreaView className='h-3/5 w-full'>\n       <View>\n"
+                },
+                {
+                    "date": 1743683824872,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,9 +42,9 @@\n     },\n   ];\n   return (\n     <View className=\"flex-1 items-center bg-yellow-950\">\n-      <Image source={events[1].image} className='absolute inset-0'/>\n+      <Image source={events[3].image} className='absolute inset-0'/>\n       <View className='absolute bg-black/50 inset-0'/>\n       <BlurView intensity={100}>\n       <SafeAreaView className='h-3/5 w-full'>\n       <View>\n"
+                },
+                {
+                    "date": 1743683830358,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,9 +42,9 @@\n     },\n   ];\n   return (\n     <View className=\"flex-1 items-center bg-yellow-950\">\n-      <Image source={events[3].image} className='absolute inset-0'/>\n+      <Image source={events[5].image} className='absolute inset-0'/>\n       <View className='absolute bg-black/50 inset-0'/>\n       <BlurView intensity={100}>\n       <SafeAreaView className='h-3/5 w-full'>\n       <View>\n"
+                },
+                {
+                    "date": 1743683865914,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,9 @@\n   ];\n   return (\n     <View className=\"flex-1 items-center bg-yellow-950\">\n       <Image source={events[5].image} className='absolute inset-0'/>\n-      <View className='absolute bg-black/50 inset-0'/>\n+      <View className='absolute bg-gray-400/80 inset-0'/>\n       <BlurView intensity={100}>\n       <SafeAreaView className='h-3/5 w-full'>\n       <View>\n         <ScrollView horizontal>\n"
+                },
+                {
+                    "date": 1743683892902,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,9 @@\n   ];\n   return (\n     <View className=\"flex-1 items-center bg-yellow-950\">\n       <Image source={events[5].image} className='absolute inset-0'/>\n-      <View className='absolute bg-gray-400/80 inset-0'/>\n+      <View className='absolute bg-gray-800/80 inset-0'/>\n       <BlurView intensity={100}>\n       <SafeAreaView className='h-3/5 w-full'>\n       <View>\n         <ScrollView horizontal>\n"
+                },
+                {
+                    "date": 1743683899779,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,9 @@\n   ];\n   return (\n     <View className=\"flex-1 items-center bg-yellow-950\">\n       <Image source={events[5].image} className='absolute inset-0'/>\n-      <View className='absolute bg-gray-800/80 inset-0'/>\n+      <View className='absolute bg-gray-800/50 inset-0'/>\n       <BlurView intensity={100}>\n       <SafeAreaView className='h-3/5 w-full'>\n       <View>\n         <ScrollView horizontal>\n"
+                },
+                {
+                    "date": 1743683905608,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,9 @@\n   ];\n   return (\n     <View className=\"flex-1 items-center bg-yellow-950\">\n       <Image source={events[5].image} className='absolute inset-0'/>\n-      <View className='absolute bg-gray-800/50 inset-0'/>\n+      <View className='absolute bg-gray-800/70 inset-0'/>\n       <BlurView intensity={100}>\n       <SafeAreaView className='h-3/5 w-full'>\n       <View>\n         <ScrollView horizontal>\n"
+                },
+                {
+                    "date": 1743683916051,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,9 @@\n   ];\n   return (\n     <View className=\"flex-1 items-center bg-yellow-950\">\n       <Image source={events[5].image} className='absolute inset-0'/>\n-      <View className='absolute bg-gray-800/70 inset-0'/>\n+      <View className='absolute bg-black/50 inset-0'/>\n       <BlurView intensity={100}>\n       <SafeAreaView className='h-3/5 w-full'>\n       <View>\n         <ScrollView horizontal>\n"
+                },
+                {
+                    "date": 1743684061788,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,10 @@\n import {BlurView} from 'expo-blur';\n-import React from 'react';\n+import React, { useState } from 'react';\n import { View, Text, SafeAreaView, Pressable, Image, ScrollView } from 'react-native';\n \n export default function WelcomeScreen() {\n+  const [activeindex,setActiveIndex] = useState(0)\n   const events = [\n     {\n       id: 1,\n       image: require('../assets/1.png'),\n@@ -42,9 +43,9 @@\n     },\n   ];\n   return (\n     <View className=\"flex-1 items-center bg-yellow-950\">\n-      <Image source={events[5].image} className='absolute inset-0'/>\n+      <Image source={events[activeindex].image} className='absolute inset-0'/>\n       <View className='absolute bg-black/50 inset-0'/>\n       <BlurView intensity={100}>\n       <SafeAreaView className='h-3/5 w-full'>\n       <View>\n@@ -67,9 +68,9 @@\n         <Text className=\"text-5xl font-bold text-white\">Apple Invite</Text>\n         <Text className=\"mb-5 text-center text-lg  text-white/60\">\n           Create beautiful invitations for your eveents. Anyone can receive invitations.\n         </Text>\n-        <Pressable className=\"self-center rounded-full bg-gray-50 px-8 py-4\">\n+        <Pressable onPress={()=>setActiveIndex(1)} className=\"self-center rounded-full bg-gray-50 px-8 py-4\">\n           <Text className=\"text-lg\">Create an Event</Text>\n         </Pressable>\n       </View>\n       </BlurView>\n"
+                },
+                {
+                    "date": 1743684098126,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import {BlurView} from 'expo-blur';\n-import React, { useState } from 'react';\n+import React, { act, useState } from 'react';\n import { View, Text, SafeAreaView, Pressable, Image, ScrollView } from 'react-native';\n \n export default function WelcomeScreen() {\n   const [activeindex,setActiveIndex] = useState(0)\n@@ -68,9 +68,9 @@\n         <Text className=\"text-5xl font-bold text-white\">Apple Invite</Text>\n         <Text className=\"mb-5 text-center text-lg  text-white/60\">\n           Create beautiful invitations for your eveents. Anyone can receive invitations.\n         </Text>\n-        <Pressable onPress={()=>setActiveIndex(1)} className=\"self-center rounded-full bg-gray-50 px-8 py-4\">\n+        <Pressable onPress={()=>setActiveIndex(activeindex +1)} className=\"self-center rounded-full bg-gray-50 px-8 py-4\">\n           <Text className=\"text-lg\">Create an Event</Text>\n         </Pressable>\n       </View>\n       </BlurView>\n"
+                },
+                {
+                    "date": 1743684203614,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,13 @@\n import { View, Text, SafeAreaView, Pressable, Image, ScrollView } from 'react-native';\n \n export default function WelcomeScreen() {\n   const [activeindex,setActiveIndex] = useState(0)\n+  const onButtonPress = () =>{\n+    if(activeindex <= 9) {\n+       setActiveIndex(activeindex +1)\n+    }\n+  }\n   const events = [\n     {\n       id: 1,\n       image: require('../assets/1.png'),\n@@ -68,9 +73,9 @@\n         <Text className=\"text-5xl font-bold text-white\">Apple Invite</Text>\n         <Text className=\"mb-5 text-center text-lg  text-white/60\">\n           Create beautiful invitations for your eveents. Anyone can receive invitations.\n         </Text>\n-        <Pressable onPress={()=>setActiveIndex(activeindex +1)} className=\"self-center rounded-full bg-gray-50 px-8 py-4\">\n+        <Pressable onPress={()=>onButtonPress} className=\"self-center rounded-full bg-gray-50 px-8 py-4\">\n           <Text className=\"text-lg\">Create an Event</Text>\n         </Pressable>\n       </View>\n       </BlurView>\n"
+                },
+                {
+                    "date": 1743684214982,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -73,9 +73,9 @@\n         <Text className=\"text-5xl font-bold text-white\">Apple Invite</Text>\n         <Text className=\"mb-5 text-center text-lg  text-white/60\">\n           Create beautiful invitations for your eveents. Anyone can receive invitations.\n         </Text>\n-        <Pressable onPress={()=>onButtonPress} className=\"self-center rounded-full bg-gray-50 px-8 py-4\">\n+        <Pressable onPress={()=>onButtonPress()} className=\"self-center rounded-full bg-gray-50 px-8 py-4\">\n           <Text className=\"text-lg\">Create an Event</Text>\n         </Pressable>\n       </View>\n       </BlurView>\n"
+                },
+                {
+                    "date": 1743684251684,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,11 @@\n   const [activeindex,setActiveIndex] = useState(0)\n   const onButtonPress = () =>{\n     if(activeindex <= 9) {\n        setActiveIndex(activeindex +1)\n+    } else{\n+       setActiveIndex(0)\n+\n     }\n   }\n   const events = [\n     {\n"
+                },
+                {
+                    "date": 1743684286309,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,12 +4,12 @@\n \n export default function WelcomeScreen() {\n   const [activeindex,setActiveIndex] = useState(0)\n   const onButtonPress = () =>{\n-    if(activeindex <= 9) {\n+    if(activeindex <= 8) {\n        setActiveIndex(activeindex +1)\n     } else{\n-       setActiveIndex(0)\n+       setActiveIndex()\n \n     }\n   }\n   const events = [\n"
+                },
+                {
+                    "date": 1743684328204,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n   const onButtonPress = () =>{\n     if(activeindex <= 8) {\n        setActiveIndex(activeindex +1)\n     } else{\n-       setActiveIndex()\n+       setActiveIndex(activeindex -2)\n \n     }\n   }\n   const events = [\n"
+                },
+                {
+                    "date": 1743684365977,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -76,9 +76,9 @@\n         <Text className=\"text-5xl font-bold text-white\">Apple Invite</Text>\n         <Text className=\"mb-5 text-center text-lg  text-white/60\">\n           Create beautiful invitations for your eveents. Anyone can receive invitations.\n         </Text>\n-        <Pressable onPress={()=>onButtonPress()} className=\"self-center rounded-full bg-gray-50 px-8 py-4\">\n+        <Pressable onPress={onButtonPress} className=\"self-center rounded-full bg-gray-50 px-8 py-4\">\n           <Text className=\"text-lg\">Create an Event</Text>\n         </Pressable>\n       </View>\n       </BlurView>\n"
+                },
+                {
+                    "date": 1743684440343,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n \n export default function WelcomeScreen() {\n   const [activeindex,setActiveIndex] = useState(0)\n   const onButtonPress = () =>{\n-    if(activeindex <= 8) {\n+    if(activeindex >events.length-1) {\n        setActiveIndex(activeindex +1)\n     } else{\n        setActiveIndex(activeindex -2)\n \n"
+                },
+                {
+                    "date": 1743684560856,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n   const onButtonPress = () =>{\n     if(activeindex >events.length-1) {\n        setActiveIndex(activeindex +1)\n     } else{\n-       setActiveIndex(activeindex -2)\n+       setActiveIndex(0)\n \n     }\n   }\n   const events = [\n"
+                },
+                {
+                    "date": 1743684625135,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,12 +5,13 @@\n export default function WelcomeScreen() {\n   const [activeindex,setActiveIndex] = useState(0)\n   const onButtonPress = () =>{\n     if(activeindex >events.length-1) {\n+      setActiveIndex(0)\n+    } else{\n        setActiveIndex(activeindex +1)\n-    } else{\n-       setActiveIndex(0)\n \n+\n     }\n   }\n   const events = [\n     {\n"
+                },
+                {
+                    "date": 1743684658903,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n \n export default function WelcomeScreen() {\n   const [activeindex,setActiveIndex] = useState(0)\n   const onButtonPress = () =>{\n-    if(activeindex >events.length-1) {\n+    if(activeindex >= events.length-1) {\n       setActiveIndex(0)\n     } else{\n        setActiveIndex(activeindex +1)\n \n"
                 }
             ],
             "date": 1739959553000,

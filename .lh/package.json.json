@@ -1,0 +1,18 @@
+{
+    "sourceFile": "package.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1743682217406,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1743682217406,
+            "name": "Commit-0",
+            "content": "{\n  \"name\": \"Invites\",\n  \"version\": \"1.0.0\",\n  \"main\": \"expo-router/entry\",\n  \"scripts\": {\n    \"android\": \"expo start --android\",\n    \"ios\": \"expo start --ios\",\n    \"start\": \"expo start\",\n    \"prebuild\": \"expo prebuild\",\n    \"lint\": \"eslint \\\"**/*.{js,jsx,ts,tsx}\\\" && prettier -c \\\"**/*.{js,jsx,ts,tsx,json}\\\"\",\n    \"format\": \"eslint \\\"**/*.{js,jsx,ts,tsx}\\\" --fix && prettier \\\"**/*.{js,jsx,ts,tsx,json}\\\" --write\",\n    \"web\": \"expo start --web\"\n  },\n  \"dependencies\": {\n    \"@expo/vector-icons\": \"^14.0.0\",\n    \"@react-navigation/native\": \"^7.0.3\",\n    \"expo\": \"^52.0.35\",\n    \"expo-constants\": \"~17.0.6\",\n    \"expo-linking\": \"~7.0.5\",\n    \"expo-router\": \"~4.0.6\",\n    \"expo-status-bar\": \"~2.0.1\",\n    \"expo-system-ui\": \"~4.0.8\",\n    \"expo-web-browser\": \"~14.0.2\",\n    \"nativewind\": \"latest\",\n    \"react\": \"18.3.1\",\n    \"react-dom\": \"18.3.1\",\n    \"react-native\": \"0.76.7\",\n    \"react-native-gesture-handler\": \"~2.20.2\",\n    \"react-native-reanimated\": \"3.16.2\",\n    \"react-native-safe-area-context\": \"4.12.0\",\n    \"react-native-screens\": \"~4.4.0\",\n    \"react-native-web\": \"~0.19.10\"\n  },\n  \"devDependencies\": {\n    \"@babel/core\": \"^7.20.0\",\n    \"@types/react\": \"~18.3.12\",\n    \"@typescript-eslint/eslint-plugin\": \"^7.7.0\",\n    \"@typescript-eslint/parser\": \"^7.7.0\",\n    \"eslint\": \"^8.57.0\",\n    \"eslint-config-universe\": \"^12.0.1\",\n    \"prettier\": \"^3.2.5\",\n    \"prettier-plugin-tailwindcss\": \"^0.5.11\",\n    \"tailwindcss\": \"^3.4.0\",\n    \"typescript\": \"~5.3.3\"\n  },\n  \"eslintConfig\": {\n    \"extends\": \"universe/native\",\n    \"root\": true\n  },\n  \"private\": true\n}\n"
+        }
+    ]
+}

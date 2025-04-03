@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 7,
+            "activePatchIndex": 13,
             "patches": [
                 {
                     "date": 1739955764137,
@@ -36,6 +36,30 @@
                 {
                     "date": 1739960361073,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,18 +1,19 @@\n-import { Stack, Link } from 'expo-router';\n+import { Stack, Link, Redirect } from 'expo-router';\n \n import { Button } from '~/components/Button';\n import { Container } from '~/components/Container';\n import { ScreenContent } from '~/components/ScreenContent';\n \n export default function Home() {\n-  return (\n-    <>\n-      <Stack.Screen options={{ title: 'Home' }} />\n-      <Container>\n-        <Link href=\"/welcome\">\n-          Welcome\n-        </Link>\n-      </Container>\n-    </>\n-  );\n+  return <Redirect href='/welcome'/>\n+  // return (\n+  //   <>\n+  //     <Stack.Screen options={{ title: 'Home' }} />\n+  //     <Container>\n+  //       <Link href=\"/welcome\">\n+  //         Welcome\n+  //       </Link>\n+  //     </Container>\n+  //   </>\n+  // );\n }\n"
+                },
+                {
+                    "date": 1743511961738,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,16 +4,16 @@\n import { Container } from '~/components/Container';\n import { ScreenContent } from '~/components/ScreenContent';\n \n export default function Home() {\n-  return <Redirect href='/welcome'/>\n-  // return (\n-  //   <>\n-  //     <Stack.Screen options={{ title: 'Home' }} />\n-  //     <Container>\n-  //       <Link href=\"/welcome\">\n-  //         Welcome\n-  //       </Link>\n-  //     </Container>\n-  //   </>\n-  // );\n+  // return <Redirect href='/welcome'/>\n+  return (\n+    <>\n+      <Stack.Screen options={{ title: 'Home' }} />\n+      <Container>\n+        <Link href=\"/welcome\">\n+          Welcome\n+        </Link>\n+      </Container>\n+    </>\n+  );\n }\n"
+                },
+                {
+                    "date": 1743511972034,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,16 +4,16 @@\n import { Container } from '~/components/Container';\n import { ScreenContent } from '~/components/ScreenContent';\n \n export default function Home() {\n-  // return <Redirect href='/welcome'/>\n-  return (\n-    <>\n-      <Stack.Screen options={{ title: 'Home' }} />\n-      <Container>\n-        <Link href=\"/welcome\">\n-          Welcome\n-        </Link>\n-      </Container>\n-    </>\n-  );\n+  return <Redirect href='/welcome'/>\n+  // return (\n+  //   <>\n+  //     <Stack.Screen options={{ title: 'Home' }} />\n+  //     <Container>\n+  //       <Link href=\"/welcome\">\n+  //         Welcome\n+  //       </Link>\n+  //     </Container>\n+  //   </>\n+  // );\n }\n"
+                },
+                {
+                    "date": 1743663958022,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,16 +4,16 @@\n import { Container } from '~/components/Container';\n import { ScreenContent } from '~/components/ScreenContent';\n \n export default function Home() {\n-  return <Redirect href='/welcome'/>\n-  // return (\n-  //   <>\n-  //     <Stack.Screen options={{ title: 'Home' }} />\n-  //     <Container>\n-  //       <Link href=\"/welcome\">\n-  //         Welcome\n-  //       </Link>\n-  //     </Container>\n-  //   </>\n-  // );\n+  // return <Redirect href='/welcome'/>\n+  return (\n+    <>\n+      <Stack.Screen options={{ title: 'Home' }} />\n+      <Container>\n+        <Link href=\"/welcome\">\n+          Welcome\n+        </Link>\n+      </Container>\n+    </>\n+  );\n }\n"
+                },
+                {
+                    "date": 1743673953997,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,16 +4,7 @@\n import { Container } from '~/components/Container';\n import { ScreenContent } from '~/components/ScreenContent';\n \n export default function Home() {\n-  // return <Redirect href='/welcome'/>\n-  return (\n-    <>\n-      <Stack.Screen options={{ title: 'Home' }} />\n-      <Container>\n-        <Link href=\"/welcome\">\n-          Welcome\n-        </Link>\n-      </Container>\n-    </>\n-  );\n+  return <Redirect href='/welcome'/>\n+\n }\n"
+                },
+                {
+                    "date": 1743673970407,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,7 +4,7 @@\n import { Container } from '~/components/Container';\n import { ScreenContent } from '~/components/ScreenContent';\n \n export default function Home() {\n-  return <Redirect href='/welcome'/>\n+  return <Redirect href='/index'/>\n \n }\n"
+                },
+                {
+                    "date": 1743673989418,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,7 +4,7 @@\n import { Container } from '~/components/Container';\n import { ScreenContent } from '~/components/ScreenContent';\n \n export default function Home() {\n-  return <Redirect href='/index'/>\n+  return <Redirect href='/welcome'/>\n \n }\n"
                 }
             ],
             "date": 1739955764137,
